@@ -1,0 +1,153 @@
+@font-face { 
+	font-family: "GlacialIndifference"; 
+	src: url('../fonts/GlacialIndifference/WEB/GlacialIndifference-Regular.woff2'); 
+}
+
+@font-face { 
+    font-family: GlacialIndifference; 
+    font-weight: bold; 
+    src: url('../fonts/GlacialIndifference/WEB/GlacialIndifference-Bold.woff2');
+}
+
+
+body {
+    font-family: GlacialIndifference, sans-serif;
+    /* font-family: 'GlacialIndifferenceRegular', san-serif; */
+    /* font-weight: normal; */
+    /* font-weight: 400;
+    font-style: normal; */
+    line-height: 1.6;
+}
+
+header {
+    padding: 0.5em;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 400;
+    letter-spacing: 0.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3em;
+    letter-spacing: 0.4375em;
+    font-weight: 100;
+    text-align: center;
+}
+
+h3 {
+    letter-spacing: 0.375em;
+    font-size: 2.5em;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 0.625em;
+    padding-bottom: 0.625em;
+}
+
+h4 {
+    letter-spacing: 0.3125em;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2.5em;
+}
+h5 {
+    letter-spacing: 0.25em;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h6 {
+    letter-spacing: 0.1875em;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+}
+
+header a {
+    font-size: 1.25em;
+    /* width: 50%; */
+}
+
+
+li {
+    font-size: 1.25em;
+    padding-top: 1em;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+#nav {
+    /* min-width: 0; */
+    width: 50%;
+    padding-top: 2.5em;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+}
+
+p {
+    font-size: 1.25em;
+    padding: 0.5em 0 0.5em 0;
+}
+
+footer {
+    font-size: 0.625em;
+    text-align: center;
+    padding-top: .5rem;
+}
+
+.linkspage {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.linkspage2 {
+    font-size: 1.25em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+em {
+    font-weight: bold;
+}
+
+.home {
+    padding-bottom: 1.25em;
+}
+
+blockquote {
+border-left: 0.1875em solid black;
+/* margin: 1.5em 10px; */
+padding: 0.5em 0 0 0.5em;
+}
+
+code {
+    font-family: monospace;
+}
+
+.code-block {
+    background-color: lightgray;
+}
+
+.index-block {
+    text-align: center;
+}

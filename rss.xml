@@ -1,0 +1,273 @@
+<rss version="2.0">
+<channel>
+<title>Jim's Web Page</title>
+<link>http://jimmorgan.fastmail.us.user.fm/webpage/</link>
+<description>This is my personal webpage. I built it because I want to be in a decentralized, free, open and democratic internet.</description>
+
+<item>
+<title>About</title>
+<link>http://jimmorgan.fastmail.us.user.fm/webpage/blog/about.html</link>
+<guid>http://jimmorgan.fastmail.us.user.fm/webpage/blog/about.html</guid>
+<pubDate>Sun, 25 Jan 2023 15:17:32 GMT</pubDate>
+<description><![CDATA[<h2>About</h2>
+            <!-- <h3>Main Stuff</h3> -->
+            <!-- <h4>Main Stuff</h4> -->
+            <!-- <h5>Main Stuff</h5> -->
+            <!-- <h6>Main Stuff</h6> -->
+
+            <article>
+                <h3>Preface</h3>
+                <p> The other day I wrote a rather long rant that was about the reasons why I am doing this. Upon
+                    rereading it last night I came to the conclusion that it really is incoherent drivel. So I am
+                    rewriting it right now. For those that happened to see the pre-production of this I apologize for
+                    this but I need to write something better.</p>
+                <h3>Main Event</h3>
+
+                <p>The dream that was the internet has died. The internet was dreamed up to be a nuclear war proof
+                    communication system for the government that was decentralized. Even if one node went down it would
+                    still work. Civilians got ahold of it and added to the dream. The internet became not only a
+                    decentralized communications network but a haven for democracy, openness, and some creativity. </p>
+
+                <p>The internet operated that way for quite a few years. Slowly but surely, a few tech companies began
+                    to realize the potential of monetizing the net. This too began to happen. In time a few big tech
+                    companies essentially seized control of the internet and the web and transformed it into a
+                    centralized totalitarian state with few freedoms.</p>
+
+                <p>This web site is a protest against that.</p>
+
+                <p>Several years ago I was talking with a friend and he said that "X, Y, and Z should happen and then
+                    everything will be roses and unicorn farts. I was in a snarky mood that day and said something to
+                    the effect that what needed to happen was that everyone needed to get a personal website, use RSS to
+                    follow each other, and use email for communication and file transfers. Then, I said, everything will
+                    be roses and unicorn farts.</p>
+
+                <p>It took me a few years to realize the beauty of my snarky comment. It took me a while to see that it
+                    was a decentralized system and that it was democratic, open, and would allow for creativity. Now I
+                    am a believer and am putting my mouth where my money is.</p>
+
+                <p>I will not try to explain all of the vision in this article. It will take me several articles to get
+                    it all sorted out in my brain and written out for you. </p>
+
+                <p>What you need to know for know is:
+                <ul>
+                    <li>This site and all contents by me are Copyright &copy; 2023 by James D. Morgan and is licensed <a
+                            href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0.</a> That means you can use it
+                        as
+                        long as you tell folks that it is mine.</li>
+                    <li>This site will only use <a href="https://en.wikipedia.org/wiki/Open_file_format">Open
+                            formats</a> </li>
+                    <li>This is a personal web site which means I may write on just about anything EXCEPT politics and
+                        religion.</li>
+                    <li>I NEITHER WANT NOR COLLECT ANY OF YOUR PERSONAL INFORMATION, except maybe your email address so
+                        I can respond to you if you write me.</li>
+                    <li></li>
+                </ul>
+                </p>
+                <p>On a personal not let me thank you for stopping by and I hope you enjoy what you see here.</p>
+
+
+                <a href="../index.html" class="linkspage">
+                    <p>Home</p>
+                </a>]]>
+</description>
+</item>
+
+
+<item>
+<title>Fonts</title>
+<link>http://jimmorgan.fastmail.us.user.fm/webpage/blog/fonts.html</link>
+<guid>http://jimmorgan.fastmail.us.user.fm/webpage/blog/fonts.html</guid>
+<pubDate>Tue, 24 Jan 2023 15:17:32 GMT</pubDate>
+<description><![CDATA[<h3>Fonts</h3>
+                <h6>Added <time datetime="2023-01-24">2023-01-24</time> </h6>
+
+                <p>I learned a nifty little trick today. I have always though it would be a good idea to have the fonts
+                    local. I kind of hate third party calls on the web. Somewhere in the back of my head I think that
+                    everything pertaining to a webpage, like stylesheets, scripts, images, etc, should be on the local
+                    device. You know, under the hood. A car doesn't need to send out for a carburetor after all. If it
+                    did the car might be kind of on the slow side. I
+                    might be wrong but I think this will speed up a page and maybe keep from pounding the internet so
+                    hard. If that makes any sense.</p>
+
+                <p>Anyway, the font for this page was found at <a
+                        href="https://fontlibrary.org/en/font/glacial-indifference">Font Library.</a>
+                    Yesterday, I noticed at the top right of the page that there was a download link for the fonts. Ok
+                    COOL! Now what?!
+                </p>
+
+                <p>I ventured over to our beloved StackOverflow and found <a
+                        href="https://stackoverflow.com/questions/7961721/how-do-i-install-a-custom-font-on-an-html-site">this
+                        little
+                        gem.</a></p>
+
+                <p>Basically, all I did was:</p>
+                <ul>
+                    <li>1. Download the zip file.</li>
+                    <li>2. Created a "fonts" directory in the directory where my website lives</li>
+                    <li>3. Unzip the downloaded file into the fonts directory</li>
+                    <li>4. Added these lines to my CSS file (NOTE: the names and folder locations are specific to my
+                        setup and fonts, probably not yours): <br>
+                        <section class="code-block"> <code>@font-face {
+                font-family: "GlacialIndifference";
+                src: url('../fonts/GlacialIndifference/OTF/GlacialIndifference-Regular.otf');
+                }
+                <br>
+                <br>
+                @font-face {
+                font-family: GlacialIndifference;
+                font-weight: bold;
+                src: url('../fonts/GlacialIndifference/OTF/GlacialIndifference-Bold.otf');
+                }</code></section>
+                    </li>
+                    <li>5. Commented out the link in the header of my HTML file that allows the browser to go pick up
+                        the font online.</li>
+                </ul>
+
+                <p>After that, for grins and giggles I turned off the internet and checked to see if it worked. <em>IT
+                        DID!</em></p>
+
+
+
+                <p>I hace seen the "@something" tag in a couple of CSS files that I have perused but I didn't know what
+                    it was for. Now I have a whole nuther rabbit hole Fonts]]>
+</description>
+</item>
+
+
+<item>
+<title>Links Page</title>
+<link>http://jimmorgan.fastmail.us.user.fm/webpage/blog/links.html</link>
+<guid>http://jimmorgan.fastmail.us.user.fm/webpage/blog/links.html</guid>
+<pubDate>Sun, 23 Jan 2023 02:17:32 GMT</pubDate>
+<description><![CDATA[<h2>Links</h2>
+<p>NOTE: A WEBPAGE'S INCLUSION ON THIS PAGE IS NOT AN ENDORSEMENT OF THAT PAGE BY ME</p>
+
+<h4>Other Tinkers and Thinkers</h4>
+<hr>
+
+<h4>Web Pages</h4>
+<hr>
+<a href="https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426" class="linkspage">
+<p>The Web We Have To Save</p>
+</a>
+<p>Written by the "Iranian Blogfather" this article inspired me to abandon social media and go back to
+a
+simpler time and build a website.</p>
+
+<a href="https://www.theverge.com/2017/12/19/16792306/fcc-net-neutrality-open-internet-history-free-speech-anonymity"
+class="linkspage">
+<p>We have abandoned every principle of the free and open internet</p>
+</a>
+
+<p>An article about how the once open, decentralized, and democratic internet has
+disappeared.</p>
+
+<h4>Email</h4>
+<hr>
+<a href="https://justuseemail.com" class="linkspage">
+<p>Just Use Email</p>
+</a>
+<p>Everybody gripes about it but it is probably the most stable communication platform out
+there.</p>
+<a href="https://useplaintext.email/" class="linkspage">
+<p>Use Plain Text Email</p>
+</a>
+<p>In spite of my being in general agreement with the above link I do think a little protection might
+be
+wise.</p>
+
+<h4>RSS</h4>
+<hr>
+<a href="https://techcrunch.com/2018/04/07/rss-is-undead/" class="linkspage">
+<p>RSS is Undead</p>
+</a>
+<p>One of a couple of article that reminded me how cool RSS really is and that I want to keep using
+it.</p>
+<a href="https://www.artofmanliness.com/living/reading/escape-the-algorithm/" class="linkspage">
+<p>Escape the Algorithm</p>
+</a>
+<p>Another good article that reminded me that it was time to dust off the feed reader and get away
+from
+online social media.</p>
+
+<h4>Web Development</h4>
+<hr>
+<a href="https://brutalist-web.design/" class="linkspage">
+<p>Brutalist Web Design</p>
+</a>
+<p>How to design a website that is not a magazine or funky app but is a website. There is an elegance
+in
+simplicity.</p>
+<a href="https://html.spec.whatwg.org/multipage/named-characters.html" class="linkspage">
+<p>HTML Named Character Reference</p>
+</a>
+<p>You've seen all those weird characters like &copy; and &Afr; and &nleqslant; on a website before.
+Here is
+how to make the characters.</p>
+
+<a href="https://docs.emmet.io/cheat-sheet/" class="linkspage">
+<p>Emmet Cheat Sheet</p>
+</a>
+<p>Among a whole host of apps out there VS Code uses Emmet shortscuts. Here is a guide.</p>
+
+<h4>Plain Text</h4>
+<hr>
+<a href="https://plaintextproject.online" class="linkspage">
+<p>The Plain Text Project</p>
+</a>
+
+<p>Scott Nesbitt no longer maintains this wonderful resource on using plain text in one's daily life
+but it
+remains online as an historical marker. If the above link ever happens to fail try <a
+href="https://scottnesbitt.gitlab.io"> his gitlab repo</a> instead.</p>
+
+<h4>Uncategorized</h4>
+<hr>
+<a href="http://this.how/googleAndHttp/#1519490480000" class="linkspage">
+<p>Google and HTTP</p>
+</a>
+<p>An argument against Google's (and Firefox's) nagging the user about "secure" websites.</p>
+]]>
+</description>
+</item>
+
+
+<item>
+<title>Day of Progress</title>
+<link>http://jimmorgan.fastmail.us.user.fm/webpage/blog/day-of-progress.html</link>
+<guid>http://jimmorgan.fastmail.us.user.fm/webpage/blog/day-of-progress.html</guid>
+<pubDate>Sun, 22 Jan 2023 15:27:32 GMT</pubDate>
+<description><![CDATA[<h3>A Day of Progress</h3>
+                <h6>Added <time datetime="2023-01-22">2023-01-23</time> </h6>
+
+                <p>Ok, so today has been a day of working on this webpage and I actually made some progress! I had a
+                    glitch or two in my stylesheet that I couldn't figure out last night. Those issues are now resolved.
+                    I also hated the way I had a pile of files meant to be this site so I got those organized in a way
+                    that makes sense to me. Some minor league cosmetic things were changed along the way too.</p>
+
+                <p>My big thing today though was learning a little about <abbr
+                        title="Real Simple Syndication">RSS</abbr> and getting the feed written for this site.
+                    Or, maybe I should say, written as far as the contents of this site will allow at this point.
+                    Somewhere along the way I have written an RSS file before but it has been a long time. It is
+                    actually much simpler than I remember and I now have a template for adding items to the feed.</p>
+
+                <p>Every bit of this is being done by hand with a text editor. It is not that I am a glutton for
+                    punishment, I want to do this the simplest way possible and I want to know all the ins-and-outs of
+                    my own site. The text editor is the best way to do this. I should also add that this site lives on
+                    my computer and is vetted before it is uploaded.</p>
+
+                <p>This site will mostly consist of items that can be created and or manipulated in an editor. Because
+                    this is a website it will only consist of <abbr title="HyperText Markup Language">HTML</abbr>,
+                    </dfn> <abbr title="Cascading Style Sheets">CSS</abbr>, JavaScript, <abbr
+                        title="Real Simple Syndication">RSS</abbr> and <abbr title="Scalable Vector Graphic">SVG</abbr>
+                    files.
+                    HTML is the document itself. CSS files are used to make the document pretty. JavaScript is
+                    programming language and is used for various purposes on a website. RSS is a way to distribute your
+                    document without your readers having to view your site each day. SVG is a text created image.</p>
+
+                <p>Easy peasy.</p>]]>
+</description>
+</item>
+
+</channel>
+</rss>
