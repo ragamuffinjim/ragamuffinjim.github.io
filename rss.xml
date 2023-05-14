@@ -1,13 +1,13 @@
 <rss version="2.0">
 <channel>
 <title>Jim's Web Page</title>
-<link>http://jimmorgan.fastmail.us.user.fm/webpage/</link>
-<description>This is my personal webpage. I built it because I want to be in a decentralized, free, open and democratic internet.</description>
+<link>https://ragamuffinjim.github.io</link>
+<description>This is my personal webpage. I built it because I want to be in a decentralized, free, open and democratic internet. It is a personal blog and about everything and nothing.</description>
 
 <item>
 <title>About</title>
-<link>http://jimmorgan.fastmail.us.user.fm/webpage/blog/about.html</link>
-<guid>http://jimmorgan.fastmail.us.user.fm/webpage/blog/about.html</guid>
+<link>https://ragamuffinjim.github.io/blog/01-about.html</link>
+<guid>https://ragamuffinjim.github.io/blog/01-about.html</guid>
 <pubDate>Sun, 25 Jan 2023 15:17:32 GMT</pubDate>
 <description><![CDATA[<h2>About</h2>
             <!-- <h3>Main Stuff</h3> -->
@@ -75,8 +75,8 @@
 
 <item>
 <title>Fonts</title>
-<link>http://jimmorgan.fastmail.us.user.fm/webpage/blog/fonts.html</link>
-<guid>http://jimmorgan.fastmail.us.user.fm/webpage/blog/fonts.html</guid>
+<link>https://ragamuffinjim.github.io/blog/04-fonts.html</link>
+<guid>https://ragamuffinjim.github.io/blog/04-fonts.html</guid>
 <pubDate>Tue, 24 Jan 2023 15:17:32 GMT</pubDate>
 <description><![CDATA[<h3>Fonts</h3>
                 <h6>Added <time datetime="2023-01-24">2023-01-24</time> </h6>
@@ -136,8 +136,8 @@
 
 <item>
 <title>Links Page</title>
-<link>http://jimmorgan.fastmail.us.user.fm/webpage/blog/links.html</link>
-<guid>http://jimmorgan.fastmail.us.user.fm/webpage/blog/links.html</guid>
+<link>https://ragamuffinjim.github.io/blog/02-links.html</link>
+<guid>https://ragamuffinjim.github.io/blog/02-links.html</guid>
 <pubDate>Sun, 23 Jan 2023 02:17:32 GMT</pubDate>
 <description><![CDATA[<h2>Links</h2>
 <p>NOTE: A WEBPAGE'S INCLUSION ON THIS PAGE IS NOT AN ENDORSEMENT OF THAT PAGE BY ME</p>
@@ -234,8 +234,8 @@ href="https://scottnesbitt.gitlab.io"> his gitlab repo</a> instead.</p>
 
 <item>
 <title>Day of Progress</title>
-<link>http://jimmorgan.fastmail.us.user.fm/webpage/blog/day-of-progress.html</link>
-<guid>http://jimmorgan.fastmail.us.user.fm/webpage/blog/day-of-progress.html</guid>
+<link>https://ragamuffinjim.github.io/blog/03-day-of-progress.html</link>
+<guid>https://ragamuffinjim.github.io/blog/03-day-of-progress.html</guid>
 <pubDate>Sun, 22 Jan 2023 15:27:32 GMT</pubDate>
 <description><![CDATA[<h3>A Day of Progress</h3>
                 <h6>Added <time datetime="2023-01-22">2023-01-23</time> </h6>
