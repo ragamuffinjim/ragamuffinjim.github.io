@@ -1,8 +1,48 @@
 <rss version="2.0">
 <channel>
-<title>Jim's Web Page</title>
+<title>The Commonplace Book</title>
 <link>https://ragamuffinjim.github.io</link>
 <description>This is my personal webpage. I built it because I want to be in a decentralized, free, open and democratic internet. It is a personal blog and about everything and nothing.</description>
+
+<item>
+<title>The Unknown Warrior</title>
+<link>https://ragamuffinjim.github.io/blog/07-The-Unknown-Warrior.html</link>
+<guid>https://ragamuffinjim.github.io/blog/07-The-Unknown-Warrior.html</guid>
+<pubDate>Sat, 20 May 2023 16:12:32 GMT</pubDate>
+<description><![CDATA[<h2>The Unknown Warrior</h2>
+            <p>Yesterday I started listening to Stephen Fry's podcast <a
+                    href="https://www.audible.com/pd/Stephen-Frys-Secrets-of-the-Roaring-20s-Podcast/B0BMHSFWCX?qid=1684596149&sr=1-18&ref=a_search_c3_lProduct_1_18&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=FNCC5XQDXZ0GP7DCA6N2&pageLoadId=Lo68nwlyudEFBGIf&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c">The
+                    Secrets of the Roaring Twenties.</a> In the first episode of the series Fry with his usual
+                tongue-in-cheek manner sets the stage for the series by providing an overview of the 1920's and most of
+                what we think went on in the 20's was a result of the catastrophe of The Great War. I, for one, happen
+                to believe that The Great War quite literally changed the world forever. Fry hits on this theme in
+                tangentially and the starts telling stories that occured in the year 1920.</p>
+
+            <p>After a couple of stories he went on to explain the origin of "The Unknown Warrior." Early in the war the
+                military commands had decided to bury the dead where they died. It was not until after the war when
+                families began requesting that the military retrieve the remains of their fallen husbands, sons, and
+                brothers the the military realised that families needed closure. The entire nation was in mourning and
+                did not have the comfort of having the remains or a funeral service.</p>
+
+            <p>Retrieving the remains of all the fallen would have been a monumental task. One which a post-war United
+                Kingdom was incapable of doing. Someone (I think Fry mentions a Reverend David Railton an Army chaplain)
+                came up with the idea of retrieving one soldier's remains from a battlefield bringing him back to the UK
+                and burying him and providing a closure for the nation.</p>
+
+            <p>The entire process is detailed in <a href="https://en.wikipedia.org/wiki/The_Unknown_Warrior">this
+                    wikipedia article</a> and <a
+                    href="https://www.westminster-abbey.org/abbey-commemorations/commemorations/unknown-warrior"> at the
+                    Westminster Abbey site.</a> I will not even attempt to redo what is so beautifully written on these
+                sites.</p>
+
+
+
+
+            <a href="../index.html" class="linkspage">
+                <p>Home</p>
+            </a>]]>
+</description>
+</item>
 
 <item>
 <title>Site Changes</title>
