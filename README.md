@@ -1,4 +1,3 @@
 # website
 
-Umm... what you see here is what you're going to get. This is part a 
-website and part learning how to use github and vscode together.
+This is my personal webpage. I built it because I want to be in a decentralized, free, open and democratic internet. It is a personal blog and about everything and nothing.
