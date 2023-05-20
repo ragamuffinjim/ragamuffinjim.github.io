@@ -12,10 +12,6 @@
 
 body {
     font-family: GlacialIndifference, sans-serif;
-    /* font-family: 'GlacialIndifferenceRegular', san-serif; */
-    /* font-weight: normal; */
-    /* font-weight: 400;
-    font-style: normal; */
     line-height: 1.6;
 }
 
@@ -24,22 +20,22 @@ header {
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 3.25em;
     font-weight: 400;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.25em;
     text-align: center;
 }
 
 h2 {
-    font-size: 3em;
-    letter-spacing: 0.4375em;
+    font-size: 2.75em;
+    letter-spacing: 0.125em;
     font-weight: 200;
     text-align: center;
 }
 
 h3 {
-    letter-spacing: 0.375em;
-    font-size: 2.5em;
+    letter-spacing: 0.0625em;
+    font-size: 2.25em;
     font-weight: 100;
     text-align: center;
     padding-top: 0.625em;
@@ -150,4 +146,8 @@ code {
 
 .index-block {
     text-align: center;
+}
+
+bold {
+    font-weight: bold;
 }
