@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="James D. Morgan">
+    <meta name="email" content="ragamuffinjim@gmail.com">
+    <title>The
+        Commonplace Book</title>
+    <link rel="stylesheet" href="../styles/cssreset.css">
+    <link rel="stylesheet" href="../styles/mycss.css">
+</head>
+
+<body>
+    <main>
+        <article>
+            <h2>SVG Experimentation</h2> <svg viewBox="0 0 232 142" xmlns="http://www.w3.org/2000/svg">
+                <rect x="100" y="0" width="132" height="139
+" fill="white" stroke="black" stroke-width="1" />
+                <g stroke="black" fill="white" stroke-width="0.5"> <!-- upper
+    unit top -->
+                    <path d="M 222 10 h -96 L 116.9 19.1 h 96 z" /> <!-- backsplash -->
+                    <path d="M 126 76 h 96 v -30 h -96 v 30" /> <!-- upper unit front -->
+                    <path d="M 116.9 19.1 v 36 h 96 v -36" />
+                    <!-- upper unit left side -->
+                    <path d="M 222 10 v 36 l -9.1 9.1 v -36 l 9.1 -9.1" />
+                    <path d="M 126 76 v 0 36 h 0 96 v 0 -36 z" /> <!-- backsplash -->
+                    <circle cx="222" cy="46" r="1" fill="red" />
+                    <circle cx="126" cy="76" r="1" fill="green" /> <!-- 3 edges of counter top -->
+                    <path d="M 126 76 l -16.97 16.97 h 96 l 16.97 -16.97" /> <!-- front of cabinet -->
+                    <path d="M 109.03 92.97 v 36 h 96 v -36 " /> <!-- right side of cabinet -->
+                    <path d="M 222 76 v 36 L 205.03 128.97 v -36 z" />
+                </g>
+            </svg>
+            <p>
+                <bold>A note for the
+                    meticulous:</bold><i> Yes I know the image above is off-centered and I know it is not detailed or
+                    anything. It
+                    is the result of a couple of hours of experimenting, learning, and playing. I am tired and decided
+                    to just show off
+                    rather than redraw it again.</i>
+            </p>
+            <p>I spent a couple of hours today playing with an <a href="https://en.wikipedia.org/wiki/SVG"><abbr
+                        title="Scalable Vector Graphics">SVG</abbr></a> file.
+                For those of you who do not know, svg files are images that can be edited in a text editor. SVG files
+                are crisp and
+                clean at any scale. The file above was created in a text editor and in the original iteration was
+                somewhere between
+                50 and 75 lines of code. </p>
+            <p>Originally, everything was plotted out by starting a line at a point and
+                ending it at another point. Long, boring, tedious and mind numbing was that procedure. If I had to draft
+                cabinet
+                plans that way all the time I might have to quit my job or take up heavy drinking.</p>
+            <p>A few months ago
+                when I started learning about SVG, or at least the syntax of it, I discovered the <path> element. I also
+                    discovered that <a href="https://developer.mozilla.org/">MDN</a> is about as clear as mud on some
+                    things.
+                    While I did played around with <path> a few months ago I did not really understand much of what I
+                        was
+                        doing.</p>
+            <p>I looked at my 60-odd lines of code today and said there simply has to be a better way to do
+                this. So to Google I ventured and after a couple of other fruitless pages I found <a
+                    href="https://css-tricks.com/svg-path-syntax-illustrated-guide/">this</a> wonderful page by Chris
+                Coyier.
+                About a 1/4 of the way down the page is a table that clearly explains in about 100 words what MDN
+                couldn't explain
+                in a few hundred words on their site.</p>
+            <p>I experimented with <path> for a little while using the above
+                    site as a reference. Low and behold one can use relative distances! I no longer need to go from
+                    point x to point y
+                    on every stinking line in the drawing. I can draw a whole plane relative to the point I started at.
+                    That'll cut my
+                    math down to NOTHING! </p>
+            <p>At the end of it all today I probably can cut the time it takes to draw a
+                cabinet in a text editor in half and my 60-odd lines of code was reduced to 24 lines AND 8 of those
+                lines are
+                comment lines and 2 more lines (the circles) are wholly unecessary. So, for what is in this picture
+                there are only
+                14 lines of code and that can be reduced as well.</p>
+            <p>For those curious here is the code:
+                <code class="code-block"><br>&lt;svg viewBox="0 0 232 232" xmlns="http://www.w3.org/2000/svg"&gt;<br>
+
+                &lt;rect x="100" y="0" width="132" height="139
+                " fill="white" stroke="black" stroke-width="1" /&gt;<br>
+
+                &lt;g stroke="black" fill="white" stroke-width="0.5"&gt;<br>
+
+                &lt;!-- upper unit top --&gt;<br>
+
+                &lt;path d="M 222 10 h -96 L 116.9 19.1 h 96 z" /&gt;<br>
+
+                &lt;!-- backsplash --&gt;<br>
+
+                &lt;path d="M 126 76 h 96 v -30 h -96 v 30" /&gt;<br>
+                &lt;!-- upper unit front --&gt;<br>
+                &lt;path d="M 116.9 19.1 v 36 h 96 v -36" /&gt;<br>
+                &lt;!-- upper unit left side --&gt;<br>
+                &lt;path d="M 222 10 v 36 l -9.1 9.1 v -36 l 9.1 -9.1" /&gt;<br>
+                &lt;path d="M 126 76 v 0 36 h 0 96 v 0 -36 z" /&gt;<br>
+                &lt;!-- backsplash --&gt;<br>
+                &lt;circle cx="222" cy="46" r="1" fill="red" /&gt;<br>
+                &lt;circle cx="126" cy="76" r="1" fill="green" /&gt;<br>
+                &lt;!-- 3 edges of counter top --&gt;<br>
+                &lt;path d="M 126 76 l -16.97 16.97 h 96 l 16.97 -16.97" /&gt;<br>
+                &lt;!-- front of cabinet --&gt;<br>
+                &lt;path d="M 109.03 92.97 v 36 h 96 v -36 " /&gt;<br>
+                &lt;!-- right side of cabinet --&gt;<br>
+                &lt;path d="M 222 76 v 36 L 205.03 128.97 v -36 z" /&gt;<br>
+                &lt;/g&gt;<br>
+                &lt;/svg&gt;<br></code>
+            </p> <a href="../index.html" class="linkspage">
+                <p>Home</p>
+            </a>
+        </article>
+    </main>
+</body>
+
+</html>
