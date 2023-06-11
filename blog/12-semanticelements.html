@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="James D. Morgan">
+    <meta name="email" content="ragamuffinjim@gmail.com">
+    <title>The Commonplace Book</title>
+    <link rel="stylesheet" href="../styles/cssreset.css">
+    <link rel="stylesheet" href="../styles/mycss.css">
+</head>
+
+<body>
+    <main>
+        <article>
+            <h2>Semantic HTML Elements</h2>
+            <p class="index-block">I am putting this here for my needs. Maybe the reader will find it useful. If not
+                they can skip on ahead.
+            </p>
+            <p></p>
+            <h3>The &lt;main&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main" class="linkspage2">MDN web docs
+                &lt;main&gt;</a>
+            <p>The &lt;main&gt; HTML element represents the dominant content of the
+                &lt;body&gt; of a document. The main content area consists of content that is directly related to or
+                expands
+                upon the
+                central topic of a document, or the central functionality of an application.</p>
+            <p>A document mustn't have more than one
+                &lt;main&gt; element that doesn't have the <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#attr-hidden">hidden</a>
+                attribute specified.</p>
+            <h3>The &lt;header&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" class="linkspage2">MDN web docs &lt;header&gt;</a>
+            <p>The &lt;header&gt; <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> element
+                represents
+                introductory content, typically a group of introductory or navigational aids. It
+                may contain some heading elements but also a logo, a search form, an author name, and other elements.
+            </p>
+            <h3>The &lt;section&gt; Element</h3>
+            <a href=https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" class="linkspage2">MDN web docs &lt;section&gt;</a>
+            <p>The &lt;section&gt; <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML></a> element
+                represents a
+                generic standalone section of a document, which doesn't have a more specific
+                semantic element to represent it. Sections should always have a heading, with very few exceptions.</p>
+            <p>To put this in Cracker-speak: This here acts just like a &lt;div&gt; so it is kind of redundant but it
+                works
+                better with a screen reader.</p>
+            <h3>The &lt;nav&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" class="linkspage2">MDN web docs &lt;nav&gt;</a>
+            <p>The
+                &lt;nav&gt; HTML element represents a section of a page whose purpose is to provide navigation links,
+                either
+                within the current document or to other documents. Common examples of navigation sections are menus,
+                tables
+                of contents, and indexes.</p>
+            <h3>The &lt;footer&gt; Element</h3>
+            <a href=https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" class="linkspage2">MDN web docs &lt;footer&gt;
+                element</a>
+            <p>The &lt;footer&gt; HTML element represents a footer for its nearest ancestor sectioning content or
+                sectioning
+                root
+                element. A &lt;footer&gt; typically contains information about the author of the section, copyright data
+                or
+                links
+                to related documents.</p>
+            <h3>The &lt;article&gt; Element</h3>
+            <a href=https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" class="linkspage2">MDN web docs &lt;article&gt;
+                Element
+            </a>
+            <p>The &lt;article&gt; HTML element represents a self-contained composition in a document, page,
+                application, or
+                site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples
+                include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a
+                user-submitted
+                comment, an interactive widget or gadget, or any other independent item of content.</p>
+            <p>A given document can have multiple articles in it; for example, on a blog that shows the text of each
+                article
+                one after
+                another as the reader scrolls, each post would be contained in an &lt;article&gt; element, possibly with
+                one
+                or more &lt;section&gt;
+                s within.</p>
+            <h3>The &lt;aside&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" class="linkspage2">MDN web docs &lt;aside&gt;
+                Element</a>
+            <p> The
+                &lt;aside&gt; HTML element represents a portion of a document whose content is only indirectly related
+                to
+                the
+                document's
+                main content. Asides are frequently presented as sidebars or call-out boxes.</p>
+            <aside>Your Momma wears combat boots.</aside>
+            <h3>The &lt;summary&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary" class="linkspage2">MDN web docs &lt;summary&gt;
+                Element</a>
+            <p>The &lt;summary&gt; HTML element specifies a summary, caption, or legend for a <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details">&lt;details&gt;</a>
+                element's
+                disclosure box. Clicking
+                the &lt;summary&gt; element toggles the state of the parent &lt;details&gt; element open and closed.</p>
+            <details>
+                <summary>You know what?</summary> Your Momma wears combat boots!
+            </details>
+            <h3>The &lt;time&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time" class="linkspage2">MDN web docs &lt;time&gt;
+                Element</a>
+            <p> The &lt;time&gt; HTML element represents a specific period in time. It may include the datetime
+                attribute to
+                translate dates
+                into machine-readable format, allowing for better search engine results or custom features such as
+                reminders.
+
+            <ul>It may represent one of the following:
+                <li>A time on a 24-hour clock.</li>
+                <li>A precise date in the Gregorian calendar (with optional time and timezone information).</li>
+                <li>A valid time duration.</li>
+            </ul>
+            </p>
+            <aside>This part of this page is being written on <time datetime="2022-08-14T11:55:00">2022-08-14 at 11:55
+                    AM.</time> You will not see anything in the text but a screen reader will love me. </aside>
+            <h3>The &lt;figure&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" class="linkspage2"> MDN web docs &lt;figure&gt;
+                Element</a>
+            <p> The &lt;figure&gt; HTML element represents self-contained content, potentially with an optional caption,
+                which is specified
+                using the &lt;figcaption&gt; element. The figure, its caption, and its contents are referenced as a
+                single
+                unit.</p>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ortolan_bunting_in_Sierra_de_Guara%2C_Aragon%2C_Spain.jpg/320px-Ortolan_bunting_in_Sierra_de_Guara%2C_Aragon%2C_Spain.jpg"
+                    alt="Picture of an Ortolan Bunting perched on some rocks">
+                <figcaption>Ortolan Bunting perched on a rock<br>Copyright 2013 by Pierre Dalous Licensed <a
+                        href="https://creativecommons.org/licenses/by-sa/3.0">CC By-SA 3.0</a></figcaption>
+            </figure>
+            <h3>The &lt;abbr&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr" class="linkspage2">MDN web docs &lt;abbr&gt;
+                Element</a>
+            <p>The &lt;abbr&gt; HTML element represents an abbreviation or acronym.</p>
+            <p>When including an abbreviation or acronym, provide a full expansion of the term in plain text on first
+                use,
+                along
+                with the &lt;abbr&gt; to mark up the abbreviation. This informs the user what the abbreviation or
+                acronym
+                means.</p>
+            <p> The optional title attribute can provide an expansion for the abbreviation or acronym when a full
+                expansion
+                is
+                not present. This provides a hint to user agents on how to announce/display the content while informing
+                all
+                users what the abbreviation means. If present, title must contain this full description and nothing
+                else.
+            </p>
+            <aside>
+                <p>Ashok's joke made me <abbr title="Laugh Out Loud">LOL</abbr> big
+                    time.</p>
+                <p>This page is written in <abbr title="Hyper Text Markup Language">HTML.</abbr> HAHA! So there!</abbr>
+                </p>
+            </aside>
+            <h3>The &lt;data&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data" class="linkspage2">MDN web docs &lt;data&gt;
+                Element</a>
+            <p>The &lt;data&gt; HTML element links a given piece of content with a machine-readable translation. If the
+                content is time- or
+                date-related, the &lt;time&gt; element must be used.</p>
+            <h3>The &lt;mark&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark" class="linkspage2">MDN web docs &lt;mark&gt;
+                Element</a>
+            <p>The &lt;mark&gt; HTML element represents text which is marked or highlighted for reference or notation
+                purposes, due to the
+                marked passage's relevance or importance in the enclosing context.</p>
+            <blockquote>
+                It is a period of civil war. Rebel spaceships, striking from a
+                hidden base, have won their first victory against the evil
+                Galactic Empire. During the battle, <mark>Rebel spies managed
+                    to steal secret plans</mark> to the Empire's ultimate weapon,
+                the DEATH STAR, an armored space station with enough power to
+                destroy an entire planet.
+            </blockquote>
+            <h3>The &lt;cite&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite" class="linkspage2">MDN web docs &lt;cite&gt;
+                Element</a>
+            <p>The &lt;cite&gt; HTML element is used to describe a reference to a cited creative work, and must include
+                the
+                title of that
+                work. The reference may be in an abbreviated form according to context-appropriate conventions related
+                to
+                citation
+                metadata.</p>
+            <figure>
+                <blockquote>
+                    <p>It was a bright cold day in April, and the clocks were striking thirteen.</p>
+                </blockquote>
+                <figcaption>First sentence in <cite><a href="http://www.george-orwell.org/1984/0.html">Nineteen
+                            Eighty-Four</a></cite> by George Orwell (Part 1,
+                    Chapter 1).</figcaption>
+            </figure>
+
+            <a href="../index.html" class="linkspage">
+                <p>Home</p>
+            </a>
+
+        </article>
+    </main>
+</body>
+
+</html>
