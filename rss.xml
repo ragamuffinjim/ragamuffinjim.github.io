@@ -5,6 +5,26 @@
 <description>This is my personal webpage. I built it because I want to be in a decentralized, free, open and democratic internet. It is a personal blog and about everything and nothing.</description>
 
 <item>
+<title>A Quick Update</title>
+<link>https://ragamuffinjim.github.io/blog/15-quickupdate.html</link>
+<guid>https://ragamuffinjim.github.io/blog/15-quickupdate.html</guid>
+<pubDate>Sun, 08 Jul 2023 18:41:32 GMT</pubDate>
+<description><![CDATA[<h2>A Quick Update</h2>
+            <p>Posted:<time datetime="2023-07-08"> 8 July 2023</time></p>
+            <p>It has been a while since I have posted anything at all here. Life has been hectic, to put it mildly and just about all of my "internetting" has either been work related or over email/RSS the last few days.</p>
+            <p>I have chosen ot implement a couple of changes on the site. I have added a "posted date" to the post. If I ever write a solution to a problem it might be a good idea to have a date on there so that people won't be looking at my post as a solution to a problem 15 years from now. Hat tip to <a href="kevq.uk">Kev Quirk</a> for this one. I also like Kev's "reply via email" link so I stole that one too. This will be a test post of that feature to see if I remember how to do it.</p>
+            <p>I think I am going to change the "Other Tinkers and Thinkers" category on the <a href="../blog/02-links.html">links</a> page to the more traditional "Blogroll." I have added a couple of people into this Hall of Fame. Some of the other people that I read have blogrolls of their own and I am scouring their rolls for interesting people to follow and harass. </p>
+            <p>Other than that I have no big thoughts today or at least not much that I want to take the time to write about yet. It has been a busy couple of months for me and hopefully things will slowdown to a dull roar soon. Then I hope to produce the content that I actually intended to for this site.</p>
+
+
+            <a href="mailto:ragamuffinjim@gmail.com?subject=A Quick Update" class="linkspage"><p>Reply via email</p></a>
+            <a href="../index.html" class="linkspage">
+                <p>Home</p>
+            </a>]]>
+</description>
+</item>
+
+<item>
 <title>Kev Quirk</title>
 <link>https://ragamuffinjim.github.io/blog/14-kevqtinkerandthinker.html</link>
 <guid>https://ragamuffinjim.github.io/blog/14-kevqtinkerandthinker.html</guid>
