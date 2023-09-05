@@ -17,7 +17,8 @@ B -- No ---> D[Run deploy.sh to deploy!];
 C ----> E((Enjoy your weekend!));
 D ----> E((Enjoy your weekend!));
 ```
-- I need to hunt it down again but I did bump into a website that advertised that one could take a spreadsheet program and make it work with the tables in Markdown.
+- I need to hunt it down again but I did bump into a website that advertised that one could take a spreadsheet program and make it work with the tables in Markdown. [Markdown Formula](
+https://github.com/cescript/MarkdownFormula)
 - Most of the means that I have to convert a markdown file to a pdf are crap. But I have an extension on VS Code that will convert the md file to html and I can open that in a browser and then save it as a pdf and that works real well.
 
 So while a couple of things will be much more difficult in a text editor (like drafting cabinet plans), I truly can live most of my *important* computer life in the text editor.  
