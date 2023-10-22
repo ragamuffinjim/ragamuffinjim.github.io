@@ -5,6 +5,61 @@
 <description>This is my personal webpage. I built it because I want to be in a decentralized, free, open and democratic internet. It is a personal blog and about everything and nothing.</description>
 
 <item>
+<title>Simple Times</title>
+<link>https://ragamuffinjim.github.io/blog/19-simpletimes.html</link>
+<guid>https://ragamuffinjim.github.io/blog/19-simpletimes.html</guid>
+<pubDate>Sun, 22 OCT 2023 15:17:32 GMT</pubDate>
+<description><![CDATA[<h2>Simple Times</h2>
+            <p>Posted:<time datetime="2023-10-22"> 2023-10-22</time>
+                <br>Currently reading: <a href="https://en.wikipedia.org/wiki/A_Beautiful_Mind_(book)">A Beautiful
+                    Mind</a> by Sylvia Nasar
+                <br>Currently binging: James Bond movies
+            </p>
+            <p>So the other day I signed into an old Mastodon account that I never got around to deleting in my
+                rage-quitting against (anti)social media a few months ago. It is actually getting to be fun now that I
+                have eliminated all the people who have nothing but
+                news/politics/religion/sexual-orientation/some-other-bullshit-idealistic reason for being on social
+                media. It is nice to pare down the timeline to where it is people talking to people. I may stick around
+                for a while. I was missing some of these folks and want to stay in touch.</p>
+
+            <p>Parenthetically, after a disappointing day yesterday of trying to do something different with how I make
+                this blog and RSS feed, I have decided that I will just keep doing what I am doing. It is easy and
+                comfortable, kind of like and old shoe. After getting very little actually accomplished yesterday,
+                except for the headache that comes from trying to relearn <a
+                    href="https://en.wikipedia.org/wiki/GNU_Emacs">Emacs</a> and all of it's weirdness, I decided that
+                what I was doing is working just fine and I will keep doing it.</p>
+
+            <p>I will keep doing it the way I have been doing it with one or two provisos, namely:
+            <ul>
+                <li>- I will play in (anti)social media a little more with some very tight rules for me to follow.
+                    (Manifesto coming soon)</li>
+                <li>- I will clean out my RSS feed reader of the news and political stuff.</li>
+                <li>- I will focus more on people in both my feed reader and social media accounts, and</li>
+                <li>- I will actually take the time to turn this blog into something.</li>
+            </ul>
+            </p>
+
+            <p>I have also set a doohickey (please pardon the technical term) for sending the feed for this site to my
+                Mastodon timeline. I found one person's blog through this sort of setup the other day and I really
+                enjoyed his post. It was just a personal post about taking his kid to the barber. Nice, clean, simple,
+                personal, and real.</p>
+
+            <p><u>Nice, clean, simple, personal, and real.</u> Yeah, that is the internet that I want to be a part of.
+                That is the internet that I want to see. That is the internet that I am, hopefully, helping to create.
+            </p>
+
+
+            <a href="mailto:ragamuffinjim@gmail.com?subject=FILL IN HERE" class="linkspage">
+                <p>Reply via email</p>
+            </a>
+            <a href="../index.html" class="linkspage">
+                <p>Home</p>
+            </a>]]>
+</description>
+</item>
+
+
+<item>
 <title>Updates</title>
 <link>https://ragamuffinjim.github.io/blog/18-update.html</link>
 <guid>https://ragamuffinjim.github.io/blog/18-update.html</guid>
