@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="A webpage on the small web where James can be real and not an internet performance artist.">
+        content="The Technopastoral Home of ragamuffinjim. A digital garden for Jim to explore and create uninhibited by the forces of social media.">
     <meta name="author" content="James D. Morgan">
     <meta name="email" content="ragamuffinjim@gmail.com">
-    <meta http-equiv="refresh" content="60" />
-    <meta name="keywords" content="">
-    <title>Real Jim</title>
+    <!-- <meta http-equiv="refresh" content="60" /> -->
+    <meta name="keywords" content="digital garden, chess, Esperanto, woodwork, woodworking, blog, Fediverse">
+    <title>The Technopastoral Home of ragamuffinjim</title>
     <link rel="me" href="https://liberdon.com/@whistlewright">
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
 
@@ -19,9 +19,651 @@
 
 <body>
     <main>
-        <header>
-            <h1><a href="https://ragamuffinjim.github.io/realjim.html">The Real Jim</a></h1>
+        <header id="top">
+            <h1><a href="https://ragamuffinjim.github.io/realjim.html">My Technopastoral Home</a></h1>
+            <h6>by <a href="mailto://ragamuffinjim@gmail.com">ragamuffinjim</a></h6>
         </header>
+
+        <nav id="nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#links">Links</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+        <article>
+            <a id="garish">
+                <h2>Garish</h2>
+            </a>
+
+            <a href="https://en.wiktionary.org/wiki/garish" class="linkspage2">Wiktionary</a>
+            <h3>Etymology</h3>
+            <p>Of unknown origin, possibly from obsolete Middle English gawren (“to stare”) which is of uncertain
+                origin,
+                probably from
+                Old Norse gá (“to watch, heed”) or gaurr (“rough fellow”) (Proto-Indo-European *gʰow-rós, from *gʰew-
+                (“to
+                be
+                angry”)).</p>
+            <h3>Adjective</h3>
+            <p>garish (comparative more garish, superlative most garish)</p>
+            <ul>
+                <li>1. Overly ostentatious; so colourful as to be in bad taste. [from 1540s]
+                </li>
+                <li>Synonyms: gaudy
+                    <em>The dress fits her well, but the pattern is rather garish.</em>
+                </li>
+            </ul>
+
+
+
+            <a href="mailto:ragamuffinjim@gmail.com?subject=SVG Experiment">Reply by Email</a>
+            <br><a href="#top">Return to top</a>
+
+        </article>
+        <article>
+            <a id="svg-experiment">
+                <h2>SVG Experimentation</h2>
+            </a>
+            <svg viewBox="0 0 232 142" xmlns="http://www.w3.org/2000/svg">
+                <rect x="100" y="0" width="132" height="139
+        " fill="white" stroke="black" stroke-width="1" />
+                <g stroke="black" fill="white" stroke-width="0.5"> <!-- upper
+            unit top -->
+                    <path d="M 222 10 h -96 L 116.9 19.1 h 96 z" /> <!-- backsplash -->
+                    <path d="M 126 76 h 96 v -30 h -96 v 30" /> <!-- upper unit front -->
+                    <path d="M 116.9 19.1 v 36 h 96 v -36" />
+                    <!-- upper unit left side -->
+                    <path d="M 222 10 v 36 l -9.1 9.1 v -36 l 9.1 -9.1" />
+                    <path d="M 126 76 v 0 36 h 0 96 v 0 -36 z" /> <!-- backsplash -->
+                    <circle cx="222" cy="46" r="1" fill="red" />
+                    <circle cx="126" cy="76" r="1" fill="green" /> <!-- 3 edges of counter top -->
+                    <path d="M 126 76 l -16.97 16.97 h 96 l 16.97 -16.97" /> <!-- front of cabinet -->
+                    <path d="M 109.03 92.97 v 36 h 96 v -36 " /> <!-- right side of cabinet -->
+                    <path d="M 222 76 v 36 L 205.03 128.97 v -36 z" />
+                </g>
+            </svg>
+            <p>
+                <bold>A note for the
+                    meticulous:</bold><i> Yes I know the image above is off-centered and I know it is not detailed or
+                    anything. It
+                    is the result of a couple of hours of experimenting, learning, and playing. I am tired and decided
+                    to just show off
+                    rather than redraw it again.</i>
+            </p>
+            <p>I spent a couple of hours today playing with an <a href="https://en.wikipedia.org/wiki/SVG"><abbr
+                        title="Scalable Vector Graphics">SVG</abbr></a> file.
+                For those of you who do not know, svg files are images that can be edited in a text editor. SVG files
+                are crisp and
+                clean at any scale. The file above was created in a text editor and in the original iteration was
+                somewhere between
+                50 and 75 lines of code. </p>
+            <p>Originally, everything was plotted out by starting a line at a point and
+                ending it at another point. Long, boring, tedious and mind numbing was that procedure. If I had to draft
+                cabinet
+                plans that way all the time I might have to quit my job or take up heavy drinking.</p>
+            <p>A few months ago
+                when I started learning about SVG, or at least the syntax of it, I discovered the &lt;path&gt; element.
+                I also
+                discovered that <a href="https://developer.mozilla.org/">MDN</a> is about as clear as mud on some
+                things.
+                While I did played around with &lt;path&gt; a few months ago I did not really understand much of what I
+                was
+                doing.</p>
+            <p>I looked at my 60-odd lines of code today and said there simply has to be a better way to do
+                this. So to Google I ventured and after a couple of other fruitless pages I found <a
+                    href="https://css-tricks.com/svg-path-syntax-illustrated-guide/">this</a> wonderful page by Chris
+                Coyier.
+                About a 1/4 of the way down the page is a table that clearly explains in about 100 words what MDN
+                couldn't explain
+                in a few hundred words on their site.</p>
+            <p>I experimented with <path> for a little while using the above
+                    site as a reference. Low and behold one can use relative distances! I no longer need to go from
+                    point x to point y
+                    on every stinking line in the drawing. I can draw a whole plan relative to the point I started at.
+                    That'll cut my
+                    math down to NOTHING! </p>
+            <p>At the end of it all today I probably can cut the time it takes to draw a
+                cabinet in a text editor in half and my 60-odd lines of code was reduced to 24 lines AND 8 of those
+                lines are
+                comment lines and 2 more lines (the circles) are wholly unecessary. So, for what is in this picture
+                there are only
+                14 lines of code and that can be reduced as well.</p>
+            <p>For those curious here is the code:
+                <code class="code-block"><br>&lt;svg viewBox="0 0 232 232" xmlns="http://www.w3.org/2000/svg"&gt;<br>
+        
+                        &lt;rect x="100" y="0" width="132" height="139
+                        " fill="white" stroke="black" stroke-width="1" /&gt;<br>
+        
+                        &lt;g stroke="black" fill="white" stroke-width="0.5"&gt;<br>
+        
+                        &lt;!-- upper unit top --&gt;<br>
+        
+                        &lt;path d="M 222 10 h -96 L 116.9 19.1 h 96 z" /&gt;<br>
+        
+                        &lt;!-- backsplash --&gt;<br>
+        
+                        &lt;path d="M 126 76 h 96 v -30 h -96 v 30" /&gt;<br>
+                        &lt;!-- upper unit front --&gt;<br>
+                        &lt;path d="M 116.9 19.1 v 36 h 96 v -36" /&gt;<br>
+                        &lt;!-- upper unit left side --&gt;<br>
+                        &lt;path d="M 222 10 v 36 l -9.1 9.1 v -36 l 9.1 -9.1" /&gt;<br>
+                        &lt;path d="M 126 76 v 0 36 h 0 96 v 0 -36 z" /&gt;<br>
+                        &lt;!-- backsplash --&gt;<br>
+                        &lt;circle cx="222" cy="46" r="1" fill="red" /&gt;<br>
+                        &lt;circle cx="126" cy="76" r="1" fill="green" /&gt;<br>
+                        &lt;!-- 3 edges of counter top --&gt;<br>
+                        &lt;path d="M 126 76 l -16.97 16.97 h 96 l 16.97 -16.97" /&gt;<br>
+                        &lt;!-- front of cabinet --&gt;<br>
+                        &lt;path d="M 109.03 92.97 v 36 h 96 v -36 " /&gt;<br>
+                        &lt;!-- right side of cabinet --&gt;<br>
+                        &lt;path d="M 222 76 v 36 L 205.03 128.97 v -36 z" /&gt;<br>
+                        &lt;/g&gt;<br>
+                        &lt;/svg&gt;<br></code>
+                <a href="mailto:ragamuffinjim@gmail.com?subject=SVG Experiment">Reply by Email</a>
+                <br><a href="#top">Return to top</a>
+        </article>
+        <article>
+            <a id="semantic-elements">
+                <h2>Semantic HTML Elements</h2>
+            </a>
+            <p class="index-block">I am putting this here for my needs. Maybe the reader will find it useful. If not
+                they can skip on ahead.
+            </p>
+            <p></p>
+            <h3>The &lt;main&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main" class="linkspage2">MDN web docs
+                &lt;main&gt;</a>
+            <p>The &lt;main&gt; HTML element represents the dominant content of the
+                &lt;body&gt; of a document. The main content area consists of content that is directly related to or
+                expands
+                upon the
+                central topic of a document, or the central functionality of an application.</p>
+            <p>A document mustn't have more than one
+                &lt;main&gt; element that doesn't have the <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#attr-hidden">hidden</a>
+                attribute specified.</p>
+            <h3>The &lt;header&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header" class="linkspage2">MDN web docs
+                &lt;header&gt;</a>
+            <p>The &lt;header&gt; <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> element
+                represents
+                introductory content, typically a group of introductory or navigational aids. It
+                may contain some heading elements but also a logo, a search form, an author name, and other elements.
+            </p>
+            <h3>The &lt;section&gt; Element</h3>
+            <a href=https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" class="linkspage2">MDN web docs
+                &lt;section&gt;</a>
+            <p>The &lt;section&gt; <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML></a> element
+                represents a
+                generic standalone section of a document, which doesn't have a more specific
+                semantic element to represent it. Sections should always have a heading, with very few exceptions.</p>
+            <p>To put this in Cracker-speak: This here acts just like a &lt;div&gt; so it is kind of redundant but it
+                works
+                better with a screen reader.</p>
+            <h3>The &lt;nav&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" class="linkspage2">MDN web docs
+                &lt;nav&gt;</a>
+            <p>The
+                &lt;nav&gt; HTML element represents a section of a page whose purpose is to provide navigation links,
+                either
+                within the current document or to other documents. Common examples of navigation sections are menus,
+                tables
+                of contents, and indexes.</p>
+            <h3>The &lt;footer&gt; Element</h3>
+            <a href=https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" class="linkspage2">MDN web docs
+                &lt;footer&gt;
+                element</a>
+            <p>The &lt;footer&gt; HTML element represents a footer for its nearest ancestor sectioning content or
+                sectioning
+                root
+                element. A &lt;footer&gt; typically contains information about the author of the section, copyright data
+                or
+                links
+                to related documents.</p>
+            <h3>The &lt;article&gt; Element</h3>
+            <a href=https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" class="linkspage2">MDN web docs
+                &lt;article&gt;
+                Element
+            </a>
+            <p>The &lt;article&gt; HTML element represents a self-contained composition in a document, page,
+                application, or
+                site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples
+                include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a
+                user-submitted
+                comment, an interactive widget or gadget, or any other independent item of content.</p>
+            <p>A given document can have multiple articles in it; for example, on a blog that shows the text of each
+                article
+                one after
+                another as the reader scrolls, each post would be contained in an &lt;article&gt; element, possibly with
+                one
+                or more &lt;section&gt;
+                s within.</p>
+            <h3>The &lt;aside&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" class="linkspage2">MDN web docs
+                &lt;aside&gt;
+                Element</a>
+            <p> The
+                &lt;aside&gt; HTML element represents a portion of a document whose content is only indirectly related
+                to
+                the
+                document's
+                main content. Asides are frequently presented as sidebars or call-out boxes.</p>
+            <aside>Your Momma wears combat boots.</aside>
+            <h3>The &lt;summary&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary" class="linkspage2">MDN web docs
+                &lt;summary&gt;
+                Element</a>
+            <p>The &lt;summary&gt; HTML element specifies a summary, caption, or legend for a <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details">&lt;details&gt;</a>
+                element's
+                disclosure box. Clicking
+                the &lt;summary&gt; element toggles the state of the parent &lt;details&gt; element open and closed.</p>
+            <details>
+                <summary>You know what?</summary> Your Momma wears combat boots!
+            </details>
+            <h3>The &lt;time&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time" class="linkspage2">MDN web docs
+                &lt;time&gt;
+                Element</a>
+            <p> The &lt;time&gt; HTML element represents a specific period in time. It may include the datetime
+                attribute to
+                translate dates
+                into machine-readable format, allowing for better search engine results or custom features such as
+                reminders.
+
+            <ul>It may represent one of the following:
+                <li>A time on a 24-hour clock.</li>
+                <li>A precise date in the Gregorian calendar (with optional time and timezone information).</li>
+                <li>A valid time duration.</li>
+            </ul>
+            </p>
+            <aside>This part of this page is being written on <time datetime="2022-08-14T11:55:00">2022-08-14 at 11:55
+                    AM.</time> You will not see anything in the text but a screen reader will love me. </aside>
+            <h3>The &lt;figure&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure" class="linkspage2"> MDN web docs
+                &lt;figure&gt;
+                Element</a>
+            <p> The &lt;figure&gt; HTML element represents self-contained content, potentially with an optional caption,
+                which is specified
+                using the &lt;figcaption&gt; element. The figure, its caption, and its contents are referenced as a
+                single
+                unit.</p>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ortolan_bunting_in_Sierra_de_Guara%2C_Aragon%2C_Spain.jpg/320px-Ortolan_bunting_in_Sierra_de_Guara%2C_Aragon%2C_Spain.jpg"
+                    alt="Picture of an Ortolan Bunting perched on some rocks">
+                <figcaption>Ortolan Bunting perched on a rock<br>Copyright 2013 by Pierre Dalous Licensed <a
+                        href="https://creativecommons.org/licenses/by-sa/3.0">CC By-SA 3.0</a></figcaption>
+            </figure>
+            <h3>The &lt;abbr&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr" class="linkspage2">MDN web docs
+                &lt;abbr&gt;
+                Element</a>
+            <p>The &lt;abbr&gt; HTML element represents an abbreviation or acronym.</p>
+            <p>When including an abbreviation or acronym, provide a full expansion of the term in plain text on first
+                use,
+                along
+                with the &lt;abbr&gt; to mark up the abbreviation. This informs the user what the abbreviation or
+                acronym
+                means.</p>
+            <p> The optional title attribute can provide an expansion for the abbreviation or acronym when a full
+                expansion
+                is
+                not present. This provides a hint to user agents on how to announce/display the content while informing
+                all
+                users what the abbreviation means. If present, title must contain this full description and nothing
+                else.
+            </p>
+            <aside>
+                <p>Ashok's joke made me <abbr title="Laugh Out Loud">LOL</abbr> big
+                    time.</p>
+                <p>This page is written in <abbr title="Hyper Text Markup Language">HTML.</abbr> HAHA! So there!</abbr>
+                </p>
+            </aside>
+            <h3>The &lt;data&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data" class="linkspage2">MDN web docs
+                &lt;data&gt;
+                Element</a>
+            <p>The &lt;data&gt; HTML element links a given piece of content with a machine-readable translation. If the
+                content is time- or
+                date-related, the &lt;time&gt; element must be used.</p>
+            <h3>The &lt;mark&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark" class="linkspage2">MDN web docs
+                &lt;mark&gt;
+                Element</a>
+            <p>The &lt;mark&gt; HTML element represents text which is marked or highlighted for reference or notation
+                purposes, due to the
+                marked passage's relevance or importance in the enclosing context.</p>
+            <blockquote>
+                It is a period of civil war. Rebel spaceships, striking from a
+                hidden base, have won their first victory against the evil
+                Galactic Empire. During the battle, <mark>Rebel spies managed
+                    to steal secret plans</mark> to the Empire's ultimate weapon,
+                the DEATH STAR, an armored space station with enough power to
+                destroy an entire planet.
+            </blockquote>
+            <h3>The &lt;cite&gt; Element</h3>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite" class="linkspage2">MDN web docs
+                &lt;cite&gt;
+                Element</a>
+            <p>The &lt;cite&gt; HTML element is used to describe a reference to a cited creative work, and must include
+                the
+                title of that
+                work. The reference may be in an abbreviated form according to context-appropriate conventions related
+                to
+                citation
+                metadata.</p>
+            <figure>
+                <blockquote>
+                    <p>It was a bright cold day in April, and the clocks were striking thirteen.</p>
+                </blockquote>
+                <figcaption>First sentence in <cite><a href="http://www.george-orwell.org/1984/0.html">Nineteen
+                            Eighty-Four</a></cite> by George Orwell (Part 1,
+                    Chapter 1).</figcaption>
+            </figure>
+
+            <a href="mailto:ragamuffinjim@gmail.com?subject=Semantic Elements">Reply by Email</a>
+            <br><a href="#top">Return to top</a>
+        </article>
+        <article>
+            <a id="emetophobia">
+                <h2>Emetophobia</h2>
+            </a>
+
+            <p>Ok, I really can not do a better job at this than the wikipedians so let me just quote some of their <a
+                    href="https://en.wikipedia.org/wiki/Emetophobia">article:</a></p>
+
+            <blockquote>
+                <p>Emetophobia is a phobia that causes overwhelming, intense anxiety pertaining to vomit. This specific
+                    phobia can also
+                    include subcategories of what causes the anxiety, including a fear of vomiting or seeing others
+                    vomit. Emetephobes
+                    might also avoid the mentions of "barfing", vomiting, "throwing up", or "puking."</p>
+
+                <p>It is common for those who suffer from emetophobia to be underweight or malnourished due to strict
+                    diets and
+                    restrictions they make for themselves. The thought of someone possibly vomiting can cause the phobic
+                    person to engage in
+                    extreme behaviors to escape from their anxiety triggers, e.g. going to great lengths to avoid
+                    situations that could be
+                    perceived as "threatening".</p>
+
+                <p>Emetophobia is clinically considered an "elusive predicament" because limited research has been done
+                    pertaining to it. The fear of vomiting receives little attention compared to other fears.</p>
+
+                <p>The event of vomiting may make anyone with this peculiar phobia flee the scene. Some may fear other
+                    people throwing up,
+                    while others may fear themselves throwing up. Some may fear both. Some may have anxiety that makes
+                    them feel as if they
+                    will throw up when they actually might not. Other possible fears that may come with emetophobia is
+                    not being able to
+                    locate a restroom in a timely manner, not being able to stop throwing up, choking on vomit, being
+                    embarrassed due to the
+                    situation, or having to seek medical attention. People with emetophobia usually experience anxiety;
+                    they often may
+                    scream, cry, or if it is severe, pass out when someone or something has vomited.</p>
+            </blockquote>
+
+            <p>The article goes on to show how emtophobia alters the lifestyle of the Emetophobes. Some have some
+                complicated rituals like washing their food several times while they prepare it to avoid foodborne
+                illnesses. As a result they do not go out to eat vey often.</p>
+
+            <p>They are so afraid of vomit that they will not go to social situations where alcohol might be served. It
+                says some women avoid pregnancy because they are afraid of the morning sickness of the first trimester.
+            </p>
+
+            <p>Wow, parenthood must be a bitch for these folks.</p>
+
+
+
+
+
+            <a href="mailto:ragamuffinjim@gmail.com?subject=Emetophobia">Reply by Email</a>
+            <br><a href="#top">Return to top</a>
+
+        </article>
+
+        <article>
+            <a id="contact">
+                <h2>Contact</h2>
+            </a>
+            <p><a href="mailto:ragamuffinjim@gmail.com">Email</a> is my absolute preferred way to communicate. Texting
+                is just crappy email. Well, all other forms of instant messaging are just crappy email too for that
+                matter. Email is instant and almost universal. I have gpg keys for this address if you want some
+                privacy.</p>
+            <p>If you are someone in my meatspace I might give you my phone number if you ask nicely enough. My hearing
+                is not 20/20 anymore so calling me on the phone is a lot of me struggling to hear you.</p>
+            <p>The only social media thing that I have is on <a href="https://liberdon.com/@whistlewright">Mastodon.</a>
+                Be forewarned that I think that social media is the harbinger of destruction to the world and hardly
+                ever use my account there.</p>
+            <a href="mailto:ragamuffinjim@gmail.com?subject=About">Reply by Email</a>
+            <br><a href="#top">Return to top</a>
+        </article>
+
+        <article>
+            <a id="about">
+                <h2>About</h2>
+            </a>
+            <p><strong>Planted:</strong> 2024-05-27 <strong>Last Tended: </strong>2024-05-27</p>
+
+            <h3>About this page</h3>
+
+            <p>Welcome to my little digital garden. Right now it consists of exactly one page, this one that you are
+                looking at. For the time being I will keep adding to this page. I will add more articles to it and edit
+                old ones as more stuff is learned. In time this page may get to be rather large. I am not sure what will
+                happen then. I'll figure something out.</p>
+
+            <p>The original iteration for this was a blog but but that is not really what I wanted and working the
+                "blog" was becoming
+                rather cumbersome. After reading about digital gardens in general and <a
+                    href="https://stackingthebricks.com/how-blogs-broke-the-web/">How the Blog Broke the Web</a> in
+                particular it dawned on my rather slow noggin that I wanted a <i>website</i> not a blog. So now that is
+                the direction that I am going.</p>
+
+            <p>This page (which will become a site) will always be a work in progress. Everything is on the table all
+                the time. Anything can
+                change as the garden gets tended to.</p>
+
+            <p>The topic of this garden is really just about anything. I try to avoid anything that is political,
+                religious, or sexual
+                in nature mostly. Those subject are disagreeable to good mental health. I prefer to focus on most
+                anything else.</p>
+
+            <h4>Future Features:</h4>
+            <ul>
+                <li>An RSS feed for added and/or edited articles</li>
+                <li>A better way to sort articles than dumping them into one page</li>
+                <li><i>Maybe</i> my own styling rather than stealing <a href="https://simplecss.org">Kev Quirk's</a>
+                </li>
+                <li>Figure out a way to have categories</li>
+            </ul>
+
+            <h4>What about me?</h4>
+            <p>Why thank you for asking. You are much too kind. Really I am just a guy. I am one of the great <a
+                    href="#hoi-polloi"><i>hoi polloi</i>.</a> I am a husband, father, voracious reader, cabinetmaker by
+                trade, dreamer of being a professional author. I have been getting aggravated at computers since the
+                days of BBSes, Gopher and Usenet but can't seem to put the damned things on a shelf. Really, I am just a
+                guy and not any different than you really.</p>
+
+            <p>Thank you for stopping by.</p>
+
+            <a href="mailto:ragamuffinjim@gmail.com?subject=About">Reply by Email</a>
+            <br><a href="#top">Return to top</a>
+        </article>
+        <article>
+            <a id="links">
+                <h2>Links</h2>
+
+            </a>
+            <p>NOTE: A WEBPAGE'S INCLUSION ON THIS PAGE IS NOT AN ENDORSEMENT OF THAT PAGE BY ME
+            </p>
+
+            <h3>Blogroll</h3>
+            <hr>
+
+            <a href="https://davidmarsden.info/" rel="nofollow">
+                <p>David Marsden</p>
+            </a>
+
+            <p>David Marsden has a wonderful personal blog that, in some small way, I hope to
+                emulate. Unfortunately, his feed is in a .json format and I don't have a reader that can read json
+                files.</p>
+
+            <a href="https://kevq.uk" rel="nofollow">
+                <p>Kev Quirk</p>
+            </a>
+
+            <p>Kev Quirk is the first in my links of other tinkers and thinkers! What a delight
+                it was to find his
+                site. He and I share several similarities including homesteading and antipathy towards (anti)social
+                media. Give him a read and follow his feed.</p>
+
+            <a href="https://manuelmoreale.com/" rel="nofollow">
+                <p>Manu Moreale</p>
+            </a>
+
+            <p>I'll admit that what first attracted me to Manu's page was the sheer beauty of
+                the page. It is a beautiful site but as I read his posts I fell in love with the beauty of his words
+                too. A great site! It made it into my feed reader.</p>
+
+            <a href="https://starbreaker.org/" rel="nofollow">
+                <p>Starbreaker</p>
+            </a>
+
+            <p>Matthew Graybosch made it into my feed reader on the basis of one post alone. The
+                post is a critique of Zuck's Threads thingie and how he doesn't really give a shit about it. I put
+                him in the feed reader and then read other posts where he says many of the same things that I say
+                about (anti)social media, talks about being a a writer of science fiction, and just generally
+                displays his coolness.</p>
+
+            <h3>Web Pages</h3>
+            <hr>
+            <a href="https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426" rel="nofollow">
+                <p>The Web We Have To Save</p>
+            </a>
+            <p>Written by the "Iranian Blogfather" this article inspired me to abandon social
+                media and go back to
+                a
+                simpler time and build a website.</p>
+
+            <a href="https://www.theverge.com/2017/12/19/16792306/fcc-net-neutrality-open-internet-history-free-speech-anonymity"
+                rel="nofollow">
+                <p>We have abandoned every principle of the free and open internet</p>
+            </a>
+
+            <p>An article about how the once open, decentralized, and democratic internet has
+                disappeared.</p>
+
+            <h3>Email</h3>
+            <hr>
+            <a href="https://justuseemail.com" rel="nofollow">
+                <p>Just Use Email</p>
+            </a>
+            <p>Everybody gripes about it but it is probably the most stable communication
+                platform out
+                there.</p>
+            <a href="https://useplaintext.email/" rel="nofollow">
+                <p>Use Plain Text Email</p>
+            </a>
+            <p>In spite of my being in general agreement with the above link I do think a little
+                protection might
+                be
+                wise.</p>
+
+            <h3>RSS</h3>
+            <hr>
+            <a href="https://techcrunch.com/2018/04/07/rss-is-undead/" rel="nofollow">
+                <p>RSS is Undead</p>
+            </a>
+            <p>One of a couple of article that reminded me how cool RSS really is and that I
+                want to keep using
+                it.</p>
+            <a href="https://www.artofmanliness.com/living/reading/escape-the-algorithm/" rel="nofollow">
+                <p>Escape the Algorithm</p>
+            </a>
+            <p>Another good article that reminded me that it was time to dust off the feed
+                reader and get away
+                from
+                online social media.</p>
+
+            <h3>Web Development</h3>
+            <hr>
+            <a href="https://brutalist-web.design/" rel="nofollow">
+                <p>Brutalist Web Design</p>
+            </a>
+            <p>How to design a website that is not a magazine or funky app but is a website.
+                There is an elegance
+                in
+                simplicity.</p>
+            <a href="https://html.spec.whatwg.org/multipage/named-characters.html" rel="nofollow">
+                <p>HTML Named Character Reference</p>
+            </a>
+            <p>You've seen all those weird characters like &copy; and &Afr; and &nleqslant; on a
+                website before.
+                Here is
+                how to make the characters.</p>
+
+            <a href="https://docs.emmet.io/cheat-sheet/" rel="nofollow">
+                <p class="index-block">Emmet Cheat Sheet</p>
+            </a>
+            <p>Among a whole host of apps out there VS Code uses Emmet shortscuts. Here is a
+                guide.</p>
+
+            <h3>Plain Text</h3>
+            <hr>
+            <a href="https://plaintextproject.online" rel="nofollow">
+                <p class="index-block">The Plain Text Project</p>
+            </a>
+
+            <p>Scott Nesbitt no longer maintains this wonderful resource on using plain text in
+                one's daily life
+                but it remains online as an historical marker. If the above link ever happens to fail try <a
+                    href="https://scottnesbitt.gitlab.io" rel="nofollow"> his gitlab repo</a> instead.</p>
+
+            <h3>Uncategorized</h3>
+            <hr>
+            <a href="http://this.how/googleAndHttp/#1519490480000" rel="nofollow">
+                <p>Google and HTTP</p>
+            </a>
+            <p>An argument against Google's (and Firefox's) nagging the user about "secure"
+                websites.</p>
+            <hr>
+
+            <h4>Digital Gardening</h4>
+            <hr>
+            <a href="https://maggieappleton.com/garden-history" rel="nofollow">
+                <p>Maggie Appleton</p>
+            </a>
+            <a href="https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/"
+                rel="nofollow">
+                <p>MIT</p>
+            </a>
+            <a href="https://www.thunknotes.com/blog/what-is-a-digital-garden" rel="nofollow">
+                <p>Thunknotes</p>
+            </a>
+            <a href="https://stackingthebricks.com/how-blogs-broke-the-web/" rel="nofollow">
+                <p>How
+                    Blogs Broke the Internet</p>
+            </a>
+            <a href="https://joelhooks.com/digital-garden" rel="nofollow">
+                <p>Joel Hooks</p>
+            </a>
+            <hr>
+
+            <a href="mailto:ragamuffinjim@gmail.com?subject=About">Reply by Email</a>
+            <br><a href="#top">Return to top</a>
+
+        </article>
+        <article>
+            <a id="hoi-polloi">
+                <h2>Hoi Polloi</h2>
+            </a>
+            <p><a href="https://en.wiktionary.org/wiki/hoi_polloi">Wiktionary</a> defines <i>hoi polloi</i> as "The
+                common people; the masses."</p>
+            <a href="mailto:ragamuffinjim@gmail.com?subject=Hoi Polloi">Reply by Email</a>
+            <br><a href="#top">Return to top</a>
+        </article>
 
         <article>
             <p>Date of post(s) below:<time datetime="2024-05-04"> 2024-05-04</time>
@@ -30,12 +672,14 @@
                 <br>Currently binging: watched Kill Bill vols 1 & 2 last night
                 <br>Current music genre: 80s-90s country
             </p>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <p>Well boys and girls this day ended up a wash in the website department. I ended up going to Lubbock on
                 family business and wasn't able to pursue what I wanted to today.</p>
             <p>Perhaps tomorrow I will be able to recreate where my thoughts were and get some writing done.</p>
             <p>We'll see.</p>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <a id="minimalist-sort-of">
@@ -47,6 +691,7 @@
                 want to go through for what the end product is. </p>
             <p>That is part of the reason I created this page. Yes, I have a "website" and blogs and what-have-you, but
                 this page is is just one page, created in a text editor. </p>
+            <br><a href="#top">Return to top</a>
         </article>
 
         <article>
@@ -56,12 +701,15 @@
                 <br>Currently binging: Shogun on Hulu
                 <br>Current music genre: nothing really
             </p>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <a id="guiding principle">
                 <h3>Guiding Principle</h3>
             </a>
-            <img src="guiding principle.png" alt="">
+            <img src="guiding principle.png"
+                alt="As a guiding principle, the notion that 'bees don't waste their time explaining to flies that honey is betther than shit' has helped me filter out a lot of opinions.">
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <a id="inchoate">
@@ -76,6 +724,7 @@
                 <li>Chaotic, disordered, confused; also, incoherent, <i>A lot like this webpage.</i> </li>
                 <li>(law) Of a crime, imposing criminal liability for an incompleted act.</li>
             </ul>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <a id="another-joke">
@@ -85,6 +734,7 @@
                 decide to go into the house and watch some TV. After scanning the TV guide channel the husband announces
                 that all there is to watch are farming shows and porn and asks the Mrs which one she wants to watch.</p>
             <p>"Well," she says, "I guess, we'll watch porn. You already know how to farm."</p>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <a id="joke">
@@ -100,6 +750,7 @@
                 trainer. If you remember your elementary school math 57 goes into 18 only once. 18 goes into 57 quite a
                 few times. So I
                 won't be home much before dawn.</p>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <a id="smokin-john">
@@ -108,6 +759,7 @@
             <p>For some strange reason our toilet started smoking!</p>
             <img src="smokin-john.jpg"
                 alt="A toilet with two rolls of toilet paper on the lid and an empty toilet paper roll sticking out between the seat and the bowl. It looks like the toilet is smoking a cigar.">
+            <br><a href="#top">Return to top</a>
         </article>
 
         <article>
@@ -138,6 +790,7 @@
                 anything Apple-
                 even after his passing 13 years ago Steve Jobs still gives me the creeps.</p>
             <a href="mailto:ragamuffinjim@gmail.com?subject=Why no Apple">Reply by Email</a>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <a id="edo-women">
@@ -195,6 +848,7 @@
                 glimpses of
                 female agency can be found in cultural expressions of the time.</p>
             <a href="mailto:ragamuffinjim@gmail.com?subject=Women in Edo Era Japan">Reply by Email</a>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <a id="yoga-pants">
@@ -210,6 +864,7 @@
             <p>On the other hand, cutoffs will catch the eye of just about everyone no matter what shape or size you
                 may have.</p>
             <a href="mailto:ragamuffinjim@gmail.com?subject=Yoga Pants">Reply by Email</a>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <a id="leprechaun">
@@ -282,6 +937,7 @@
                 reputation for embellishing his stories, but this one, with its leprechauns, UFOs, and magical goats,
                 was truly out of
                 this world.</p>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <a id="gemini-woman-pickles-oil">
@@ -292,6 +948,7 @@
                 of baby oil.</blockquote>
             <img src="Gemini_Generated_Image_woman-pickles-babyoil.jpg"
                 alt="Photorealistic picture of a woman in an evening gown holding a jar of pickles and a bottle of baby oil">
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <a id="pharisee-by-gemini">
@@ -362,6 +1019,7 @@
             </ul>
             <hr>
             <a href="mailto:ragamuffinjim@gmail.com?subject=Pharisees">Reply via Email</a>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <a id="laundromat-con">
@@ -401,6 +1059,7 @@
             <p>I think I am ready to tell the whole world to go to hell. We are living ridiculous lives only to enrich
                 greedy fatcats. It has to stop.</p>
             <a href="mailto:ragamuffinjim@gmail.com?subject=Laundromat Congame">Reply via Email</a>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <p>Last Post:<time datetime="2024-04-27"> 2024-04-27</time>
@@ -411,6 +1070,7 @@
                     Murders in the Building</a>
                 <br>Current music genre: nothing really
             </p>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <h2>Ok, so WTH are you doing now, Jim?</h2>
@@ -435,6 +1095,7 @@
 
             <p><b>DISCLAIMER:</b> Anyone dumb enough to take me seriously ought to have their heads examined before they
                 seriously hurt themselves.</p>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
 
@@ -461,6 +1122,7 @@
 
             <a href="mailto:ragamuffinjim@gmail.com?subject=Plain of Jars">Reply via email</p>
             </a>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
 
@@ -475,6 +1137,7 @@
                 <li>(chiefly law) To compensate or reimburse someone for some expense or injury.</li>
             </ul>
             </p>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
 
@@ -506,6 +1169,7 @@
                 think that does.</p>
             <a href="mailto:ragamuffinjim@gmail.com?subject=Wonder Woman">Reply via email</p>
             </a>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <a id="from-phone">
@@ -526,6 +1190,7 @@
             <p>I still want to hear all of the ooohs and ahhs because I might be a touch vain and self-serving so send
                 in those oohs and ahhs. ;-)</p>
             <a href="mailto: ragamuffinjim@gmail.com?subject=Posting from Phone">Reply via Email</a>
+            <br><a href="#top">Return to top</a>
         </article>
         <article>
             <a id=shogun">
@@ -543,6 +1208,7 @@
                 has certainly grabbed my attention.</p>
 
             <a href="mailto:ragamuffinjim@gmail.com?subject=Shogun">Reply via Email</a>
+            <br><a href="#top">Return to top</a>
         </article>
     </main>
     <hr>
