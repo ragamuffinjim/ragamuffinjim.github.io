@@ -5,6 +5,160 @@
 <description>This is my personal webpage. I built it because I want to be in a decentralized, free, open and democratic internet.</description>
 
 <item>
+<title>No Mouse for the computer</title>
+<link>https://ragamuffinjim.github.io/index.html#no-mouse</link>
+<guid>https://ragamuffinjim.github.io/index.html#no-mouse</guid>
+<pubDate>Fri, 27 Dec 2024 17:17:32 GMT</pubDate>
+<description><![CDATA[<a id="no-mouse">
+                <h2>No Mouse for the computer</h2>
+            </a>
+            <p>Posted:<time datetime="2024-12-27">December 27,2024</time>
+                <br>Currently reading: Nothing really
+                <br>Currently binging: Stargate SG1
+                <br>Current music genre: Mellow Contemporary Pop
+            </p>
+            <p><b>NOTE:</b> This is a work-in-progress. This page will be updated as I learn how to do this.</p>
+            <p>Last Updated: 9:05 AM 6/9/2024</p>
+
+
+            <p>Many people are impressed by folks who can print a page[^1] or that they can copy/paste,[^2]: or just
+                about anything
+                without the use of a mouse. For people who use the computer for hours everyday using a mouse seems less
+                efficient than
+                just typing in a couple of key commands and being done with it. For some, like yours truly, just trying
+                to find the
+                cursor in all this visual real estate can be a chore sometimes. So I have decided to find out if using
+                the keyboard for
+                what I do on a computer is any easier for me. I doubt it will speed me up in any substantive manner as I
+                don't know very
+                many of the commands and will have to use reference materials repeatedly throughout this experiment.</p>
+
+            <h3>Windows</h3>
+            <p>Also of note, this experiment will be done using the Windows side of this computer and not the Linux.
+                From the little
+                bit that I know the commands are probably the same in Mac and Linux but I can not guarantee this to be
+                true.</p>
+            <p>Emacs users, I am afraid you are on your own.</p>
+
+
+            <h3>Stock apps</h3>
+            <p>Also note that I want to use just the stock apps that came with Windows. So rather than apps that the
+                cool kids would
+                use, like VSCode and the Brave browser I will be using things like:
+
+                <br>Microsoft Edge, web browser
+                <br>Notepad, text editor
+                <br>Windows Media Player
+                <br>the on-board File Explorer
+                <br>the on-board utilities, like calculator
+            </p>
+            <p>As I look at this list I realize that I am in for an education. I am not very familiar with the Media
+                Player or Edge. I
+                haven't been a Windows user since 2006 so this may be a fun project just in that regard.</p>
+
+
+            <h3>Mouse Pointer</h3>
+            <p>As a pro-tip take a look at How to control the mouse pointer in Windows 10 and follow it. Sometimes you
+                may need a mouse
+                pointer.</p>
+            <p>The page says Windows 10 but it works on my Windows 11 box as well.</p>
+
+            <h3>Let's get started</h3>
+            <h4>Opening an app</h4>
+            <p>In order for me to learn what to do I need to learn while doing it. I already have my computer booted up
+                and Notepad is
+                open. I am typing this out on Notepad already. Because this is one of my first times to do this sort of
+                thing I need to
+                open up a cheat sheet or three so that I can navigate around the computer in general and the app in
+                particular. So I
+                guess it might be a good idea to open Edge.</p>
+            <p>Simple enough- press the Windows key and when it opens up type in Edge, the press Enter. Et voila! Edge
+                opens up.</p>
+            <h4>Putting the window where you want it</h4>
+
+            <p>You can move the window wherever you want it in your visual real estate by pressing the Windows key and
+                using the arrow
+                keys. This is easy enough. Easy enough on my setup with two monitors too. Just cycle through until you
+                find the setup
+                you like.</p>
+
+            <h4>Ok Edge is open, now what?</h4>
+
+            <p>If you already have something open on your computer, like I have Notepad up and running you can use
+                Alt+Tab to select
+                which window you want to work in. I used this and selected my newly opened Edge window.</p>
+            <p>Once there, I discovered that Edge doesn't open automagically with the search bar active so I typed Alt+d
+                to activate
+                the search bar. I typed in “windows keyboard commands” and hit enter. Edge took me to Bing (of course)
+                and the very
+                first item in the search results was “Help from Microsoft.” Let me scroll down using the tab key and see
+                if I can select
+                that one.</p>
+
+            <p>Ok, the tab button worked, but I couldn't see where I was on the screen and it was just doing stuff so I
+                am going to try
+                scrolling down with the arrow keys and select my link that way...</p>
+
+
+            <p>And we easily found and clicked our page. Keyboard shortcuts in Windows. I got that link by going back to
+                Edge using
+                Alt+Tab and when I got there I used Alt+d to get in the address bar and then hit Ctrl+c to copy the
+                link. Upon returning
+                to Notepad I simply pasted the link address into the link above.</p>
+            <h4>Need a new tab in Edge</h4>
+            <p>For this part of the experiment I want to have three tabs open in Edge all the time. One for Windows
+                keyboard shortcuts,
+                another for Edge shortcuts, and yet another for a page last night that lists keyboard shortcuts for
+                several different
+                Microsoft apps.</p>
+            <p>Now I am unfamiliar with Edge, but I do know that Edge is based on Google Chrome. In Chrome Ctrl+t will
+                open a new tab.
+                Let's see if that works. Ok, that worked and I managed to get Keyboard shortcuts for Edge and Keyboard
+                Shortcuts in apps
+                opened so that I have my reference material open while I do stuff here for fun.</p>
+            <h4>Notepad</h4>
+
+            <p>Oddly enough, in this world of fancified text editors, when I just need a text editor and not all the
+                bull@#$% attached
+                to a beast like VSCode I like to find the dumbest text editor that I can. I am talking about stuff like
+                Nano, Gedit,
+                Leafpad, and Notepad. One can get all twisted off and running down rabbit trails messing with all of
+                that fluff.
+                Sometimes, most of the time?, all that I need is a typewriter on a screen not a mini-os that can control
+                satellites.</p>
+
+            <h4>Keyboard shortcuts in Notepad</h4>
+
+            <p>Ctrl+c, Ctrl+x, Ctrl+v, Ctrl+f, all work as expected in Notepad.</p>
+            <p>Ctrl+left-arrow and Ctrl+right-arrow move the cursor forward or backward by word.</p>
+            <p>Ctrl+home moves the cursor to the beginning of the line. Ctrl+end moves it to the end of the line.</p>
+
+            <p>Once you move the cursor to the beginning of a word you can use the Ctrl+Shift+right-arrow or
+                Ctrl+Shift+left-arrow to
+                select the text you want to copy. Ctrl+c copies, Ctrl+x cuts, Ctrl+v pastes the selection where the
+                cursor is.</p>
+
+            <p>Notepad has a feature that let's one add a time stamp to the text file. Just press F5 and you have a
+                timestamp. I am
+                nowhere near done with this right now but the time is 9:00 AM 6/9/2024</p>
+
+
+
+
+            [^1]: This would be CTRL + p.
+            [^2]: CTRL + c to copy, CTRL + x to cut, CTRL + v to paste.
+            <p></p>
+
+
+            <a href="mailto:ragamuffinjim@gmail.com?subject=Learning Keystrokes" class="linkspage">
+                <p class="linkspage">Reply via email</p>
+            </a>
+            ]]>
+</description>
+</item>
+
+
+<item>
 <title>Some James Bond Minutiae</title>
 <link>https://ragamuffinjim.github.io/blog/20-bond.html</link>
 <guid>https://ragamuffinjim.github.io/blog/20-bond.html</guid>
