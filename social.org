@@ -1,0 +1,28 @@
+#+TITLE: ragamuffinjim's org-social
+#+NICK: ragamuffinjim
+#+DESCRIPTION: professional woodworker/cabinetmaker, hiker, cyclist, chess, esperanto, emacs hobbyist, full-time dork
+#+AVATAR: 
+#+LINK: https://ragamuffinjim.github.io
+#+CONTACT: mailto:ragamuffinjim@gmail.com
+#+CONTACT: @ragamuffinjim:matrix.org
+#+CONTACT: https://mastodon.social/@ragamuffinjim
+#+FOLLOW: andros https://andros.dev/static/social.org
+#+FOLLOW: rossabaker https://rossabaker.com/social.org
+#+FOLLOW: omidmash https://omidmash.de/social.org
+#+FOLLOW: johnhamelink https://johnhame.link/social.org
+#+FOLLOW: eoin https://eoin.site/social.org
+#+FOLLOW: adsan https://adsan.dev/social.org
+#+FOLLOW: emillo https://emillo.net/social.org
+
+* Posts
+**
+:PROPERTIES:
+:ID: 2025-08-16T14:26:00-5:00
+:TAGS: orgsocial
+:LANG: en
+:END:
+
+Hello [[https://github.com/tanrax/org-social][Org-social.] I am not sure that I set the timestamp correctly but I am just starting with org-social.
+
+
+
