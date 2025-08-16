@@ -17,6 +17,15 @@
 * Posts
 **
 :PROPERTIES:
+:ID: 2025-08-16T15:41:00-5:00
+:TAGS: org-mode blogging
+:LANG: en
+:END:
+
+Well fine, I might have one thing working but I encountered another mess in my org-mode-to-blog setup. Not sure if it is me end or github's end... Back to researching error messages.
+
+**
+:PROPERTIES:
 :ID: 2025-08-16T14:26:00-5:00
 :TAGS: orgsocial
 :LANG: en
