@@ -1,0 +1,3 @@
+* Change github permissions
+
+Hopefully this fixes the issue and this will publish now.
