@@ -30,9 +30,13 @@
              :base-directory "./content"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
-             :with-author nil           ;; Don't include author name
+             :with-author t             ;; Don't include author name
+	     :with-email t
              :with-creator t            ;; Include Emacs and Org versions in footer
-             :with-toc t                ;; Include a table of contents
+             :with-toc nil              ;; Include a table of contents
+	     :with-timestamps t
+	     :with-tags t
+	     :with-title t
              :section-numbers nil       ;; Don't include section numbers
              :time-stamp-file nil)))    ;; Don't include time stamp in file
 

@@ -1,3 +1,20 @@
-* Starting over again
+#+TITLE ragamuffinjim's webpages
+#+AUTHOR ragamuffinjim
+#+EMAIL ragamuffinjim@gmail.com
+#+LANGUAGE en
 
-And this will *hopefully* be the grand index page!!
+* All thing must come to an end...
+
+or so some people say. I have decided to start completely over with my web presence. I have scrapped the entire website/digital-garden that lived here and I am starting over from scratch. I am not making a single promise about anything regarding this project except that it will constantly be a work in progress.
+
+Among the things that need to be done:
+- add content (*DUH!*)
+- fix the styling to something pretty rather than easy
+- figure out things for a navigation bar
+- figure out if I want to have an RSS feed and how to implement it
+- get [[https://github.com/tanrax/org-social][Org-Social]] up and running
+- and a host of other things that might be too trivial to mention at this point.
+
+I am glad that you stopped by and hope that you enjoy your visit. No, regrettably, there isn't much to see yet, but I am creating something new here so please be patient with my construction noise and debris.
+
+Please feel free to [[mailto:ragamuffinjim@gmail.com][reply by Email]]. I can be found on [[https://mastodon.social/@ragamuffinjim][Mastodon]] sometimes. I am working on setting up [[https://ragamuffinjim.github.io/social.org][Org-Social]] after I upload this new page. For instant messaging try [[matrix:user/ragamuffinjim:matrix.org][@ragamuffinjim:matrix.org]]. I am not sure the matrix link will work.
