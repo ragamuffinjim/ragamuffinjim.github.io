@@ -17,4 +17,4 @@ Among the things that need to be done:
 
 I am glad that you stopped by and hope that you enjoy your visit. No, regrettably, there isn't much to see yet, but I am creating something new here so please be patient with my construction noise and debris.
 
-Please feel free to [[mailto:ragamuffinjim@gmail.com][reply by Email]]. I can be found on [[https://mastodon.social/@ragamuffinjim][Mastodon]] sometimes. I am working on setting up [[https://ragamuffinjim.github.io/social.org][Org-Social]] after I upload this new page. For instant messaging try [[matrix:user/ragamuffinjim:matrix.org][@ragamuffinjim:matrix.org]]. I am not sure the matrix link will work.
+Please feel free to [[mailto:ragamuffinjim@gmail.com][reply by Email]]. I can be found on [[https://mastodon.social/@ragamuffinjim][Mastodon]] sometimes. I am working on setting up [[https://ragamuffinjim.github.io/social.org][Org-Social]] after I upload this new page. On Matrix I am @ragamuffinjim:matrix.org I am not sure if there is a link for that.
