@@ -3,7 +3,7 @@
 #+EMAIL ragamuffinjim@gmail.com
 #+LANGUAGE en
 
-* All thing must come to an end...
+* All good things must come to an end...
 
 or so some people say. I have decided to start completely over with my web presence. I have scrapped the entire website/digital-garden that lived here and I am starting over from scratch. I am not making a single promise about anything regarding this project except that it will constantly be a work in progress.
 
