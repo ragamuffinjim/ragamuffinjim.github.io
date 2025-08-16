@@ -22,7 +22,7 @@
 :LANG: en
 :END:
 
-Hello [[https://github.com/tanrax/org-social][Org-social.] I am not sure that I set the timestamp correctly but I am just starting with org-social.
+Hello [[https://github.com/tanrax/org-social][Org-social.]] I am not sure that I set the timestamp correctly but I am just starting with org-social.
 
 
 
