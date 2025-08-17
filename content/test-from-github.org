@@ -1,0 +1,5 @@
+* Just a test
+Please excuse the noise but the page was created in a web browser directly in github. Curious as to what happens.
+[[https://ragamuffinjim.github.io][Home]]
+** Lalala
+Mares eat oats..
