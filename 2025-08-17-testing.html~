@@ -9,7 +9,7 @@
     <meta name="email" content="ragamuffinjim@gmail.com">
     <title>The Commonplace Book</title>
     <link rel="me" href="https://mastodon.social/@ragamuffinjim">
-   <-- <link rel="stylesheet" href="../styles/cssreset.css">-->
+   <!-- <link rel="stylesheet" href="../styles/cssreset.css">-->
     <link rel="stylesheet" href="../styles/mycss.css">
 </head>
 
@@ -17,7 +17,7 @@
     <main>
         <article>
             <h2>Webpage Template</h2>
-            <p>Posted:<time datetime="2025-08-17T16:47-5:00"></time>
+            <p>Posted:<time datetime="2025-08-17T16:47-5:00">2025-08-17 4:47 CDT</time>
                 <br>Currently reading:Death Come for the Archbishop by Willa Cather
                 <br>Currently binging: X-Files
                 <br>Current music genre: Fifty Shades movies soundtracks
