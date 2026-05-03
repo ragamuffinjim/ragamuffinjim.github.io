@@ -5,6 +5,57 @@
 <description>This is my personal webpage. I built it because I want to be in a decentralized, free, open and democratic internet.</description>
 
 <item>
+<title>Time to Reboot</title>
+<link>https://ragamuffinjim.github.io/reboot.html</link>
+<guid>https://ragamuffinjim.github.io/reboot.html</guid>
+<pubDate>Sat, 03 May 2026 01:29:32 GMT</pubDate>
+<description><![CDATA[<article>
+            <p>
+                <b>Posted:</b><time datetime="2026-05-02"> 02 May 2026</time>
+                <br>
+                <b>Currently reading:</b> Nothing really <br>
+                <b>Currently binging:</b> Star Trek Enterprise, sort of but not really
+                <br>
+                <b>Current music genre:</b> Nothing really
+            </p>
+            <p>So last night I grabbed the laptop and booted the Linux side. Then I opened Emacs and inside of Emacs I
+                opened the RSS feedreader Elfeed. Then I spent about an hour reading posts from the four friends that
+                alone
+                comprise my entire feed.</p>
+
+            <p><b><i>LOVED. EVERY. MINUTE.</i></b></p>
+
+            <p>I was transported to Italy as I read posts of one friend walking parts of a loop around forty-four small
+                churches somewhere near is home town. Another friend told tales about pouring a cup of coffee into his
+                laptop. Yet another regaled me with stories of living in Israel in a time of war. It was a joy hearing
+                their
+                tales and seeing their pictures.</p>
+
+            <p>This is the way the internet, or at least socializing online, should be. Simple people telling us about
+                their
+                lives with simple tech. All of these guys follow each other via RSS and they only way to respond to most
+                of
+                them is via email. Both are very simple tech.</p>
+
+            <p>So the long and short of it is that I got the itch to be a part of this small web revolution again and
+                this
+                is the first post of my reboot.</p>
+
+            <p>I have a few decisions to make as to "how" I am going to do this but I am back out in the world living
+                the
+                small web life.</p>
+
+            <a href="mailto:ragamuffinjim@gmail.com?subject=Reboot" class="linkspage">
+                <p class="linkspage">Reply via email</p>
+            </a>
+            <a href="../rss.xml" class="linkspage">
+                <p>Follow with RSS</p>
+            </a>
+        </article>]]>
+</description>
+</item>
+
+<item>
 <title>No Mouse for the Computer</title>
 <link>https://ragamuffinjim.github.io/blog/key-commands-in-windows.html</link>
 <guid>https://ragamuffinjim.github.io/blog/ey-commands-in-windows.html</guid>
