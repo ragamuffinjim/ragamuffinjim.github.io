@@ -6,6 +6,69 @@
 
 <item>
 <title>Time to Reboot</title>
+<link>https://ragamuffinjim.github.io/tek-tok.html</link>
+<guid>https://ragamuffinjim.github.io/tek-tok.html</guid>
+<pubDate>Sun, 03 May 2026 18:23:32 GMT</pubDate>
+<description><![CDATA[<article>
+      <h2>Tech Talk</h2>
+      <p>
+        <b>Posted:</b><time datetime="2025-05-3">03 May 2026</time> <br /><b>Currently reading:</b>
+        Nothing <br /><b>Currently binging:</b> Enterprise
+        <br /><b>Current music genre:</b> 50 Shades of Gray Soundtrack
+      </p>
+      <p>Ok, here is a piece for the geeky, techie crowd. I don't really want to have many "geeky" articles here. I am
+        not really a geek, per se. My day job is as a professional cabinetmaker. Computers and ham radios have always
+        been more of a hobby than an avocation. But I do try to be geeky from time to time.</p>
+
+      <h3>The Hardware</h3>
+
+      <p>My tools are:
+      <ul>
+        <li>A 15" Lenovo Ideapad 3</li>
+        <li>Some sort of Lenovo tablet which hardly gets used</li>
+        <li>A Google Pixel 10 Pro phone</li>
+      </ul>
+      </p>
+
+      <p>On the Ideapad I have the Windows Subsystem for Linux working and the subsystem is mostly all about Emacs. I am
+        no expert on Emacs. Off and on for about 20 years now I play with Emacs. I'll play with it until something makes
+        me mad or confuses me and then I hang it up for a while. Then I'll start the cycle all over again.</p>
+
+      <p>The daily driver side of the laptop is whatever the latest iteration of Windows is. Not a fan of Windows but it
+        is what I need for work purposes.</p>
+
+      <h3>How this blog is written</h3>
+
+      <p>Simply. ;-)</p>
+
+      <p>I have templates for a webpage and for the RSS item. I open VSCode and "fill in the blanks" and then push
+        everything to Github.</p>
+
+      <h3>Dreams</h3>
+
+      <p>I always have the dream of doing everything through Emacs but to tell the truth that may not ever really
+        happen. Mostly this may not happen because I tend to be on the flaky side, but also...</p>
+
+      <p>...I wonder why I have so much computer stuff and am tempted to ditch everything but the phone and make that my
+        sole device for everything. Truth is that if Android had a computer-aided drafting app that was worth
+        half-a-damn I would've done it already. I need a drafting program for work.</p>
+
+      <p>Over the last few days I have discovered that even with a mouse and external keyboard blogging via the phone
+        might be an issue too. So, you know, I might just keep doing what I am doing for a little while longer.</p>
+
+      <p>So there you have it. It ain't much but there it is.</p>
+      <a href="mailto:ragamuffinjim@gmail.com?subject=Tech Talk" class="linkspage">
+        <p class="linkspage">Reply via email</p>
+      </a>
+      <a href="rss.xml" class="linkspage">
+        <p>Follow with RSS</p>
+      </a>
+    </article>]]>
+</description>
+</item>
+
+<item>
+<title>Time to Reboot</title>
 <link>https://ragamuffinjim.github.io/reboot.html</link>
 <guid>https://ragamuffinjim.github.io/reboot.html</guid>
 <pubDate>Sat, 03 May 2026 01:29:32 GMT</pubDate>
