@@ -1,0 +1,1 @@
+just a simple text file from Android app to see if it works
