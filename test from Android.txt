@@ -1,1 +1,3 @@
 just a simple text file from Android app to see if it works
+
+edited from a web browser directly in github not the dev thing
