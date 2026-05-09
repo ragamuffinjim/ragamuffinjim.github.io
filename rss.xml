@@ -4,12 +4,6 @@
 <link>https://ragamuffinjim.github.io</link>
 <description>This is my personal webpage. I built it because I want to be in a decentralized, free, open and democratic internet.</description>
 
-<rss version="2.0">
-<channel>
-<title>ragamuffinjim</title>
-<link>https://ragamuffinjim.github.io</link>
-<description>This is my personal webpage. I built it because I want to be in a decentralized, free, open and democratic internet.</description>
-
 <item>
 <title>Experiment in Cellphone-only Life</title>
 <link>https://ragamuffinjim.github.io/2026-05-08.html</link>
@@ -102,7 +96,8 @@
       <a href="rss.xml" class="linkspage">
         <p>Follow with RSS</p>
       </a>
-    </article>
+    </article>]]>
+    </item>
 
 <item>
 <title>Tech Talk</title>
@@ -402,9 +397,14 @@
             <p>Truth is that this is just a test post to see if I can do something. Github has pissed me off in that it's runners or something don't work for crap and so my org-to-blog setup is not working on THEIR end and I am frankly sick of trying to figure out where it is broken there. It worked like a champ on my end. This is too complicated for what I am doing so I am going back to the templates and fill in the blanks set up that I used to use. Too hell with all of that other drivel.</p>
             <a href="mailto:ragamuffinjim@gmail.com?subject=Webpage Template" class="linkspage"><p class="linkspage">Reply via email</p></a>
             <a href="../index.html" class="linkspage"><p>Home</p></a>
-	  </article>  ]]>
+	  </article>]]>
 </description>
 </item>
 
 </channel>
+<<<<<<< HEAD
+</rss>
+=======
 </rss> 
+
+>>>>>>> 58850e097cbe7875a920b54147a9c7091b998719
