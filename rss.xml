@@ -5,6 +5,53 @@
 <description>This is my personal webpage. I built it because I want to be in a decentralized, free, open and democratic internet.</description>
 
 <item>
+<title>Experiment in Cellphone-only Life</title>
+<link>https://ragamuffinjim.github.io/2026-05-08.html</link>
+<guid>https://ragamuffinjim.github.io/2026-05-08.html</guid>
+<pubDate>Sat, 08 May 2026 13:02 GMT</pubDate>
+<description><![CDATA[<article>
+      <h2>Experiment in Cellphone-only Life</h2>
+      <p>
+        <b>Posted:</b><time datetime="2026-05-08"> 8 May 2026</time> <br /><b>Currently reading:</b>
+        Nothing <br /><b>Currently binging:</b> NCIS: New Orleans
+        <br /><b>Current music genre:</b> Yesterday it was bluegrass
+      </p>
+
+<p>A recent study I bumped into online said that 16% of the US population is cellphone-only, meaning that the cellphone is the only computer that they have. That figure is considerably higher in other parts of the world. I find it hard to believe that the figure is only 16 % here. I personally know several people in my small circle of friends that are cell-only and bajillion other people who really should be.</p>
+
+      <p>For the past couple of years I have had this recurring question- why do I have so many computers? This question has taken many shapes and forms but basically boils down to <em>why don't I just use my cellphone for everything as it is the computer I use most of the time anyway?</em></p>
+
+<p>This post is the first post in an experiment where I am going to try a cellphone-only life for a month and see what it'll be like and if I can do it.</p>
+
+<p>Admittedly the main thing keeping me from doing this was just plain old laziness. We've set ourselves up with a pretty comfortable set up and I wasn't really wanting to mess with it. The second big issue it that from time to time I take some work home and I need more computer to do said work than a simple phone.</p>
+
+<p>Yesterday was one of those days where I was feeling that work was one of those things that I didn't want to participate in any longer. I am not going to leave any time soon, but I can see it on the horizon. When you start saying things like "I'd rather starve for the rest of my life than go in today" it might be time to leave.</p>
+
+<p>A plethora of little things that need to happen for going cellphone-only to work cloud my mind and I will start experimenting with them slowly but surely over the next week or two. Things like: <ul>
+<li>Can the phone drive the TV? After all the internet for me is mostly a replacement for cable TV.</li>
+<li>Can I get my wife on board and show her how all of this is going to work?</li>
+<li>Getting the adapters and docks I need to operate in desktop mode and to access thumbdrives and our external drives.</li>
+<li>Figuring out if my wife can still do the work that she occasionally needs to do from home.</li></ul></p>
+
+<p>All in all, right now I am excited by this life experiment. I am hoping that this experiment will reduce some clutter around the house and potentially reduce some expense and maybe make life easier. After all, I will only need to know one OS rather than the three that I have running around in my head right now. It would reduce my computer needs to the phone and a couple of peripheral devices which are not totally necessary but really nice to have.</p>
+
+<p>I also have hopes that living this lifestyle will reduce the time that gets wasted online. It is doubtful that it will in the short term but in the long term hopefully it will...</p>
+
+<p>That is it for this piece. Now I need to see if I can ge this piece moved over to Github so you can see it or if I need to give up and just use Blogger, which is super easy to use on the phone.</p>
+      <hr>
+<p>WRITTEN BY A HUMAN. No AI used.</p>
+<hr>
+<a href="mailto:ragamuffinjim@gmail.com?subject=Experiment in Cellphone-only Life" class="linkspage">
+        <p class="linkspage">Reply via email</p>
+      </a>
+      <a href="rss.xml" class="linkspage">
+        <p>Follow with RSS</p>
+      </a>
+    </article>]]>
+</description>
+</item>
+
+<item>
 <title>May 2 Ride</title>
 <link>https://ragamuffinjim.github.io/Cycling-May2.html</link>
 <guid>https://ragamuffinjim.github.io/Cycling-May2.html</guid>
@@ -49,10 +96,15 @@
       <a href="rss.xml" class="linkspage">
         <p>Follow with RSS</p>
       </a>
+<<<<<<< HEAD
     </article>
   </description>
 </item>
 
+=======
+    </article>]]>
+    </item>
+>>>>>>> 0e8592efb140905a996b7a996a485b296fa1196d
 
 <item>
 <title>Tech Talk</title>
@@ -352,9 +404,14 @@
             <p>Truth is that this is just a test post to see if I can do something. Github has pissed me off in that it's runners or something don't work for crap and so my org-to-blog setup is not working on THEIR end and I am frankly sick of trying to figure out where it is broken there. It worked like a champ on my end. This is too complicated for what I am doing so I am going back to the templates and fill in the blanks set up that I used to use. Too hell with all of that other drivel.</p>
             <a href="mailto:ragamuffinjim@gmail.com?subject=Webpage Template" class="linkspage"><p class="linkspage">Reply via email</p></a>
             <a href="../index.html" class="linkspage"><p>Home</p></a>
-	    ]]>
+	  </article>]]>
 </description>
 </item>
 
 </channel>
+<<<<<<< HEAD
 </rss>
+=======
+</rss> 
+
+>>>>>>> 58850e097cbe7875a920b54147a9c7091b998719
