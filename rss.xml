@@ -103,9 +103,12 @@
                 &lt;path d="M 222 76 v 36 L 205.03 128.97 v -36 z" /&gt;<br>
                 &lt;/g&gt;<br>
                 &lt;/svg&gt;<br></code>
-            </p> <a href="https://ragamuffinjim.github.io/index.html" class="linkspage">
-                <p>Home</p>
-            </a>
+            <a href="mailto:ragamuffinjim@gmail.com?subject=SVG EXPERIMENT" class="linkspage">
+                  <p class="linkspage">Reply via email</p>
+                </a>
+                <a href="rss.xml" class="linkspage">
+                  <p>Follow with RSS</p>
+                </a>
         </article>]]>
 </description>
 </item>
