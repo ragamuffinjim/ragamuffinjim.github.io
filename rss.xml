@@ -10,7 +10,8 @@
 <guid>https://ragamuffinjim.github.io/svgexperiment.html</guid>
 <pubDate>Sun, 019 May 2026 00:07:00 GMT</pubDate>
 <description><![CDATA[<article>
-            <h2>SVG Experimentation</h2> <svg viewBox="0 0 232 142" xmlns="http://www.w3.org/2000/svg">
+            <h2>SVG Experimentation</h2> 
+            <svg viewBox="0 0 232 142" xmlns="http://www.w3.org/2000/svg">
                 <rect x="100" y="0" width="132" height="139
 " fill="white" stroke="black" stroke-width="1"></rect>
                 <g stroke="black" fill="white" stroke-width="0.5"> <!-- upper
